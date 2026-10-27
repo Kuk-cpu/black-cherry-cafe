@@ -1,4 +1,4 @@
-import raw from '../src/data/imageSources.json';
+import raw from '../src/data/imageSources.json' with { type: 'json' };
 import { assetProblems, imageManifestSchema, type ImageAsset } from './media-policy.js';
 export const imageManifest = imageManifestSchema.parse(raw);
 export const placeholder = imageManifest.assets.find((a) => a.id === 'brand-placeholder')!;
