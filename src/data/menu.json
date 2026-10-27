@@ -1,0 +1,5781 @@
+{
+  "schemaVersion": 1,
+  "categories": [
+    {
+      "id": "coffee",
+      "name": "Coffee",
+      "displayOrder": 0,
+      "active": true,
+      "kind": "drink",
+      "seasonal": false
+    },
+    {
+      "id": "non-coffee",
+      "name": "Non-Coffee",
+      "displayOrder": 1,
+      "active": true,
+      "kind": "drink",
+      "seasonal": false
+    },
+    {
+      "id": "new-products",
+      "name": "Something New",
+      "displayOrder": 2,
+      "active": true,
+      "kind": "drink",
+      "seasonal": true
+    },
+    {
+      "id": "food",
+      "name": "All-Day Kitchen",
+      "displayOrder": 3,
+      "active": true,
+      "kind": "food",
+      "seasonal": false
+    }
+  ],
+  "products": [
+    {
+      "id": "espresso",
+      "name": "Espresso",
+      "categoryId": "coffee",
+      "description": "A concentrated espresso with golden crema and a rich finish.",
+      "basePrice": 400,
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "hot",
+              "name": "Hot",
+              "price": 0
+            },
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "sugar",
+          "name": "Sugar",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "0",
+              "name": "0 sugars",
+              "price": 0
+            },
+            {
+              "id": "1",
+              "name": "1 sugar",
+              "price": 0
+            },
+            {
+              "id": "2",
+              "name": "2 sugars",
+              "price": 0
+            },
+            {
+              "id": "3",
+              "name": "3 sugars",
+              "price": 0
+            },
+            {
+              "id": "4",
+              "name": "4 sugars",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Extras",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "shot",
+              "name": "Extra Shot",
+              "price": 80
+            },
+            {
+              "id": "decaf",
+              "name": "Decaf",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "allergens": [],
+      "tags": [],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 0,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/espresso-480.webp",
+      "imageDetailUrl": "/menu-items/espresso-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Espresso",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "piccolo",
+      "name": "Piccolo",
+      "categoryId": "coffee",
+      "description": "A small espresso and silky steamed milk, with a stronger coffee finish.",
+      "basePrice": 450,
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "hot",
+              "name": "Hot",
+              "price": 0
+            },
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "milk",
+          "name": "Milk",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "full-cream",
+              "name": "Full Cream",
+              "price": 0
+            },
+            {
+              "id": "skim",
+              "name": "Skim",
+              "price": 0
+            },
+            {
+              "id": "oat",
+              "name": "Oat",
+              "price": 80
+            },
+            {
+              "id": "almond",
+              "name": "Almond",
+              "price": 80
+            },
+            {
+              "id": "soy",
+              "name": "Soy",
+              "price": 80
+            }
+          ]
+        },
+        {
+          "id": "sugar",
+          "name": "Sugar",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "0",
+              "name": "0 sugars",
+              "price": 0
+            },
+            {
+              "id": "1",
+              "name": "1 sugar",
+              "price": 0
+            },
+            {
+              "id": "2",
+              "name": "2 sugars",
+              "price": 0
+            },
+            {
+              "id": "3",
+              "name": "3 sugars",
+              "price": 0
+            },
+            {
+              "id": "4",
+              "name": "4 sugars",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Extras",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "shot",
+              "name": "Extra Shot",
+              "price": 80
+            },
+            {
+              "id": "decaf",
+              "name": "Decaf",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "allergens": ["Milk (depends on selection)"],
+      "tags": [],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 1,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/piccolo-480.webp",
+      "imageDetailUrl": "/menu-items/piccolo-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Piccolo",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "macchiato",
+      "name": "Macchiato",
+      "categoryId": "coffee",
+      "description": "Espresso marked with a spoonful of soft milk foam.",
+      "basePrice": 450,
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "hot",
+              "name": "Hot",
+              "price": 0
+            },
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "sugar",
+          "name": "Sugar",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "0",
+              "name": "0 sugars",
+              "price": 0
+            },
+            {
+              "id": "1",
+              "name": "1 sugar",
+              "price": 0
+            },
+            {
+              "id": "2",
+              "name": "2 sugars",
+              "price": 0
+            },
+            {
+              "id": "3",
+              "name": "3 sugars",
+              "price": 0
+            },
+            {
+              "id": "4",
+              "name": "4 sugars",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Extras",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "shot",
+              "name": "Extra Shot",
+              "price": 80
+            },
+            {
+              "id": "decaf",
+              "name": "Decaf",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "allergens": [],
+      "tags": [],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 2,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/macchiato-480.webp",
+      "imageDetailUrl": "/menu-items/macchiato-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Macchiato",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "long-black",
+      "name": "Long Black",
+      "categoryId": "coffee",
+      "description": "Espresso over hot water, full-bodied with a delicate crema.",
+      "basePrice": 450,
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "hot",
+              "name": "Hot",
+              "price": 0
+            },
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "sugar",
+          "name": "Sugar",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "0",
+              "name": "0 sugars",
+              "price": 0
+            },
+            {
+              "id": "1",
+              "name": "1 sugar",
+              "price": 0
+            },
+            {
+              "id": "2",
+              "name": "2 sugars",
+              "price": 0
+            },
+            {
+              "id": "3",
+              "name": "3 sugars",
+              "price": 0
+            },
+            {
+              "id": "4",
+              "name": "4 sugars",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Extras",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "shot",
+              "name": "Extra Shot",
+              "price": 80
+            },
+            {
+              "id": "decaf",
+              "name": "Decaf",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "allergens": [],
+      "tags": [],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 3,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/long-black-480.webp",
+      "imageDetailUrl": "/menu-items/long-black-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Long Black",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "flat-white",
+      "name": "Flat White",
+      "categoryId": "coffee",
+      "description": "Espresso and velvety microfoam in a small ceramic cup.",
+      "basePrice": 500,
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "hot",
+              "name": "Hot",
+              "price": 0
+            },
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "milk",
+          "name": "Milk",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "full-cream",
+              "name": "Full Cream",
+              "price": 0
+            },
+            {
+              "id": "skim",
+              "name": "Skim",
+              "price": 0
+            },
+            {
+              "id": "oat",
+              "name": "Oat",
+              "price": 80
+            },
+            {
+              "id": "almond",
+              "name": "Almond",
+              "price": 80
+            },
+            {
+              "id": "soy",
+              "name": "Soy",
+              "price": 80
+            }
+          ]
+        },
+        {
+          "id": "sugar",
+          "name": "Sugar",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "0",
+              "name": "0 sugars",
+              "price": 0
+            },
+            {
+              "id": "1",
+              "name": "1 sugar",
+              "price": 0
+            },
+            {
+              "id": "2",
+              "name": "2 sugars",
+              "price": 0
+            },
+            {
+              "id": "3",
+              "name": "3 sugars",
+              "price": 0
+            },
+            {
+              "id": "4",
+              "name": "4 sugars",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Extras",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "shot",
+              "name": "Extra Shot",
+              "price": 80
+            },
+            {
+              "id": "decaf",
+              "name": "Decaf",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "allergens": ["Milk (depends on selection)"],
+      "tags": ["Popular"],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 4,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/flat-white-480.webp",
+      "imageDetailUrl": "/menu-items/flat-white-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Flat White",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "latte",
+      "name": "Latte",
+      "categoryId": "coffee",
+      "description": "Espresso with steamed milk and a silky layer of latte art.",
+      "basePrice": 500,
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "hot",
+              "name": "Hot",
+              "price": 0
+            },
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "milk",
+          "name": "Milk",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "full-cream",
+              "name": "Full Cream",
+              "price": 0
+            },
+            {
+              "id": "skim",
+              "name": "Skim",
+              "price": 0
+            },
+            {
+              "id": "oat",
+              "name": "Oat",
+              "price": 80
+            },
+            {
+              "id": "almond",
+              "name": "Almond",
+              "price": 80
+            },
+            {
+              "id": "soy",
+              "name": "Soy",
+              "price": 80
+            }
+          ]
+        },
+        {
+          "id": "sugar",
+          "name": "Sugar",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "0",
+              "name": "0 sugars",
+              "price": 0
+            },
+            {
+              "id": "1",
+              "name": "1 sugar",
+              "price": 0
+            },
+            {
+              "id": "2",
+              "name": "2 sugars",
+              "price": 0
+            },
+            {
+              "id": "3",
+              "name": "3 sugars",
+              "price": 0
+            },
+            {
+              "id": "4",
+              "name": "4 sugars",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Extras",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "shot",
+              "name": "Extra Shot",
+              "price": 80
+            },
+            {
+              "id": "decaf",
+              "name": "Decaf",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "allergens": ["Milk (depends on selection)"],
+      "tags": ["Popular"],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 5,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/latte-480.webp",
+      "imageDetailUrl": "/menu-items/latte-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Latte",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "cappuccino",
+      "name": "Cappuccino",
+      "categoryId": "coffee",
+      "description": "Espresso, steamed milk and a generous cap of cocoa-dusted foam.",
+      "basePrice": 500,
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "hot",
+              "name": "Hot",
+              "price": 0
+            },
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "milk",
+          "name": "Milk",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "full-cream",
+              "name": "Full Cream",
+              "price": 0
+            },
+            {
+              "id": "skim",
+              "name": "Skim",
+              "price": 0
+            },
+            {
+              "id": "oat",
+              "name": "Oat",
+              "price": 80
+            },
+            {
+              "id": "almond",
+              "name": "Almond",
+              "price": 80
+            },
+            {
+              "id": "soy",
+              "name": "Soy",
+              "price": 80
+            }
+          ]
+        },
+        {
+          "id": "sugar",
+          "name": "Sugar",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "0",
+              "name": "0 sugars",
+              "price": 0
+            },
+            {
+              "id": "1",
+              "name": "1 sugar",
+              "price": 0
+            },
+            {
+              "id": "2",
+              "name": "2 sugars",
+              "price": 0
+            },
+            {
+              "id": "3",
+              "name": "3 sugars",
+              "price": 0
+            },
+            {
+              "id": "4",
+              "name": "4 sugars",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Extras",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "shot",
+              "name": "Extra Shot",
+              "price": 80
+            },
+            {
+              "id": "decaf",
+              "name": "Decaf",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "allergens": ["Milk (depends on selection)"],
+      "tags": [],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 6,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/cappuccino-480.webp",
+      "imageDetailUrl": "/menu-items/cappuccino-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Cappuccino",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "mocha",
+      "name": "Mocha",
+      "categoryId": "coffee",
+      "description": "Espresso and chocolate folded into silky steamed milk.",
+      "basePrice": 550,
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "hot",
+              "name": "Hot",
+              "price": 0
+            },
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "milk",
+          "name": "Milk",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "full-cream",
+              "name": "Full Cream",
+              "price": 0
+            },
+            {
+              "id": "skim",
+              "name": "Skim",
+              "price": 0
+            },
+            {
+              "id": "oat",
+              "name": "Oat",
+              "price": 80
+            },
+            {
+              "id": "almond",
+              "name": "Almond",
+              "price": 80
+            },
+            {
+              "id": "soy",
+              "name": "Soy",
+              "price": 80
+            }
+          ]
+        },
+        {
+          "id": "sugar",
+          "name": "Sugar",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "0",
+              "name": "0 sugars",
+              "price": 0
+            },
+            {
+              "id": "1",
+              "name": "1 sugar",
+              "price": 0
+            },
+            {
+              "id": "2",
+              "name": "2 sugars",
+              "price": 0
+            },
+            {
+              "id": "3",
+              "name": "3 sugars",
+              "price": 0
+            },
+            {
+              "id": "4",
+              "name": "4 sugars",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Extras",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "shot",
+              "name": "Extra Shot",
+              "price": 80
+            },
+            {
+              "id": "decaf",
+              "name": "Decaf",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "allergens": ["Milk (depends on selection)"],
+      "tags": [],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 7,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/mocha-480.webp",
+      "imageDetailUrl": "/menu-items/mocha-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Mocha",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "coffee-chai-latte",
+      "name": "Chai Latte",
+      "categoryId": "coffee",
+      "description": "Spiced black tea and steamed milk, fragrant with cinnamon.",
+      "basePrice": 550,
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "hot",
+              "name": "Hot",
+              "price": 0
+            },
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "milk",
+          "name": "Milk",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "full-cream",
+              "name": "Full Cream",
+              "price": 0
+            },
+            {
+              "id": "skim",
+              "name": "Skim",
+              "price": 0
+            },
+            {
+              "id": "oat",
+              "name": "Oat",
+              "price": 80
+            },
+            {
+              "id": "almond",
+              "name": "Almond",
+              "price": 80
+            },
+            {
+              "id": "soy",
+              "name": "Soy",
+              "price": 80
+            }
+          ]
+        },
+        {
+          "id": "sugar",
+          "name": "Sugar",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "0",
+              "name": "0 sugars",
+              "price": 0
+            },
+            {
+              "id": "1",
+              "name": "1 sugar",
+              "price": 0
+            },
+            {
+              "id": "2",
+              "name": "2 sugars",
+              "price": 0
+            },
+            {
+              "id": "3",
+              "name": "3 sugars",
+              "price": 0
+            },
+            {
+              "id": "4",
+              "name": "4 sugars",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Extras",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "shot",
+              "name": "Extra Shot",
+              "price": 80
+            },
+            {
+              "id": "decaf",
+              "name": "Decaf",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "allergens": ["Milk (depends on selection)"],
+      "tags": [],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 8,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/coffee-chai-latte-480.webp",
+      "imageDetailUrl": "/menu-items/coffee-chai-latte-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Chai Latte",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "iced-long-black",
+      "name": "Iced Long Black",
+      "categoryId": "coffee",
+      "description": "Espresso over chilled water and clear ice, bold and refreshing.",
+      "basePrice": 550,
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "sugar",
+          "name": "Sugar",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "0",
+              "name": "0 sugars",
+              "price": 0
+            },
+            {
+              "id": "1",
+              "name": "1 sugar",
+              "price": 0
+            },
+            {
+              "id": "2",
+              "name": "2 sugars",
+              "price": 0
+            },
+            {
+              "id": "3",
+              "name": "3 sugars",
+              "price": 0
+            },
+            {
+              "id": "4",
+              "name": "4 sugars",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Extras",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "shot",
+              "name": "Extra Shot",
+              "price": 80
+            },
+            {
+              "id": "decaf",
+              "name": "Decaf",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "allergens": [],
+      "tags": [],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 9,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/iced-long-black-480.webp",
+      "imageDetailUrl": "/menu-items/iced-long-black-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Iced Long Black",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "iced-latte",
+      "name": "Iced Latte",
+      "categoryId": "coffee",
+      "description": "Espresso poured over cold milk and ice for a smooth finish.",
+      "basePrice": 600,
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "milk",
+          "name": "Milk",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "full-cream",
+              "name": "Full Cream",
+              "price": 0
+            },
+            {
+              "id": "skim",
+              "name": "Skim",
+              "price": 0
+            },
+            {
+              "id": "oat",
+              "name": "Oat",
+              "price": 80
+            },
+            {
+              "id": "almond",
+              "name": "Almond",
+              "price": 80
+            },
+            {
+              "id": "soy",
+              "name": "Soy",
+              "price": 80
+            }
+          ]
+        },
+        {
+          "id": "sugar",
+          "name": "Sugar",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "0",
+              "name": "0 sugars",
+              "price": 0
+            },
+            {
+              "id": "1",
+              "name": "1 sugar",
+              "price": 0
+            },
+            {
+              "id": "2",
+              "name": "2 sugars",
+              "price": 0
+            },
+            {
+              "id": "3",
+              "name": "3 sugars",
+              "price": 0
+            },
+            {
+              "id": "4",
+              "name": "4 sugars",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Extras",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "shot",
+              "name": "Extra Shot",
+              "price": 80
+            },
+            {
+              "id": "decaf",
+              "name": "Decaf",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "allergens": ["Milk (depends on selection)"],
+      "tags": ["Popular"],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 10,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/iced-latte-480.webp",
+      "imageDetailUrl": "/menu-items/iced-latte-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Iced Latte",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "iced-mocha",
+      "name": "Iced Mocha",
+      "categoryId": "coffee",
+      "description": "Chocolate, espresso and cold milk over ice with a cocoa finish.",
+      "basePrice": 650,
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "milk",
+          "name": "Milk",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "full-cream",
+              "name": "Full Cream",
+              "price": 0
+            },
+            {
+              "id": "skim",
+              "name": "Skim",
+              "price": 0
+            },
+            {
+              "id": "oat",
+              "name": "Oat",
+              "price": 80
+            },
+            {
+              "id": "almond",
+              "name": "Almond",
+              "price": 80
+            },
+            {
+              "id": "soy",
+              "name": "Soy",
+              "price": 80
+            }
+          ]
+        },
+        {
+          "id": "sugar",
+          "name": "Sugar",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "0",
+              "name": "0 sugars",
+              "price": 0
+            },
+            {
+              "id": "1",
+              "name": "1 sugar",
+              "price": 0
+            },
+            {
+              "id": "2",
+              "name": "2 sugars",
+              "price": 0
+            },
+            {
+              "id": "3",
+              "name": "3 sugars",
+              "price": 0
+            },
+            {
+              "id": "4",
+              "name": "4 sugars",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Extras",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "shot",
+              "name": "Extra Shot",
+              "price": 80
+            },
+            {
+              "id": "decaf",
+              "name": "Decaf",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "allergens": ["Milk (depends on selection)"],
+      "tags": [],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 11,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/iced-mocha-480.webp",
+      "imageDetailUrl": "/menu-items/iced-mocha-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Iced Mocha",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "cold-brew",
+      "name": "Cold Brew",
+      "categoryId": "coffee",
+      "description": "Slow-steeped coffee served over ice, mellow and chocolatey.",
+      "basePrice": 650,
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "sugar",
+          "name": "Sugar",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "0",
+              "name": "0 sugars",
+              "price": 0
+            },
+            {
+              "id": "1",
+              "name": "1 sugar",
+              "price": 0
+            },
+            {
+              "id": "2",
+              "name": "2 sugars",
+              "price": 0
+            },
+            {
+              "id": "3",
+              "name": "3 sugars",
+              "price": 0
+            },
+            {
+              "id": "4",
+              "name": "4 sugars",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Extras",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "shot",
+              "name": "Extra Shot",
+              "price": 80
+            },
+            {
+              "id": "decaf",
+              "name": "Decaf",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "allergens": [],
+      "tags": [],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 12,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/cold-brew-480.webp",
+      "imageDetailUrl": "/menu-items/cold-brew-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Cold Brew",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "batch-brew",
+      "name": "Batch Brew",
+      "categoryId": "coffee",
+      "description": "Freshly brewed filter coffee with a clean, balanced finish.",
+      "basePrice": 550,
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "hot",
+              "name": "Hot",
+              "price": 0
+            },
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "sugar",
+          "name": "Sugar",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "0",
+              "name": "0 sugars",
+              "price": 0
+            },
+            {
+              "id": "1",
+              "name": "1 sugar",
+              "price": 0
+            },
+            {
+              "id": "2",
+              "name": "2 sugars",
+              "price": 0
+            },
+            {
+              "id": "3",
+              "name": "3 sugars",
+              "price": 0
+            },
+            {
+              "id": "4",
+              "name": "4 sugars",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Extras",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "shot",
+              "name": "Extra Shot",
+              "price": 80
+            },
+            {
+              "id": "decaf",
+              "name": "Decaf",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "allergens": [],
+      "tags": [],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 13,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/batch-brew-480.webp",
+      "imageDetailUrl": "/menu-items/batch-brew-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Batch Brew",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "dirty-chai",
+      "name": "Dirty Chai",
+      "categoryId": "coffee",
+      "description": "Spiced chai, espresso and milk with a warming coffee kick.",
+      "basePrice": 600,
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "hot",
+              "name": "Hot",
+              "price": 0
+            },
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "milk",
+          "name": "Milk",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "full-cream",
+              "name": "Full Cream",
+              "price": 0
+            },
+            {
+              "id": "skim",
+              "name": "Skim",
+              "price": 0
+            },
+            {
+              "id": "oat",
+              "name": "Oat",
+              "price": 80
+            },
+            {
+              "id": "almond",
+              "name": "Almond",
+              "price": 80
+            },
+            {
+              "id": "soy",
+              "name": "Soy",
+              "price": 80
+            }
+          ]
+        },
+        {
+          "id": "sugar",
+          "name": "Sugar",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "0",
+              "name": "0 sugars",
+              "price": 0
+            },
+            {
+              "id": "1",
+              "name": "1 sugar",
+              "price": 0
+            },
+            {
+              "id": "2",
+              "name": "2 sugars",
+              "price": 0
+            },
+            {
+              "id": "3",
+              "name": "3 sugars",
+              "price": 0
+            },
+            {
+              "id": "4",
+              "name": "4 sugars",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Extras",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "shot",
+              "name": "Extra Shot",
+              "price": 80
+            },
+            {
+              "id": "decaf",
+              "name": "Decaf",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "allergens": ["Milk (depends on selection)"],
+      "tags": [],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 14,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/dirty-chai-480.webp",
+      "imageDetailUrl": "/menu-items/dirty-chai-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Dirty Chai",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "extra-shot",
+      "name": "Extra Shot",
+      "categoryId": "coffee",
+      "description": "One extra espresso shot, served separately or added to your drink.",
+      "basePrice": 80,
+      "modifiers": [
+        {
+          "id": "roast",
+          "name": "Roast",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "regular",
+              "name": "Regular",
+              "price": 0
+            },
+            {
+              "id": "decaf",
+              "name": "Decaf",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "allergens": [],
+      "tags": [],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 15,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/extra-shot-480.webp",
+      "imageDetailUrl": "/menu-items/extra-shot-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Extra Shot",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "alternative-milk",
+      "name": "Alternative Milk",
+      "categoryId": "coffee",
+      "description": "A small serve of oat, almond or soy milk for your coffee.",
+      "basePrice": 80,
+      "modifiers": [
+        {
+          "id": "milk",
+          "name": "Milk",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "oat",
+              "name": "Oat",
+              "price": 0
+            },
+            {
+              "id": "almond",
+              "name": "Almond",
+              "price": 0
+            },
+            {
+              "id": "soy",
+              "name": "Soy",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "allergens": ["Milk (depends on selection)"],
+      "tags": [],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 16,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/alternative-milk-480.webp",
+      "imageDetailUrl": "/menu-items/alternative-milk-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Alternative Milk",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "hot-chocolate",
+      "name": "Hot Chocolate",
+      "categoryId": "non-coffee",
+      "description": "Rich cocoa and steamed milk with a soft chocolate foam.",
+      "basePrice": 550,
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "hot",
+              "name": "Hot",
+              "price": 0
+            },
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "milk",
+          "name": "Milk",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "full-cream",
+              "name": "Full Cream",
+              "price": 0
+            },
+            {
+              "id": "skim",
+              "name": "Skim",
+              "price": 0
+            },
+            {
+              "id": "oat",
+              "name": "Oat",
+              "price": 80
+            },
+            {
+              "id": "almond",
+              "name": "Almond",
+              "price": 80
+            },
+            {
+              "id": "soy",
+              "name": "Soy",
+              "price": 80
+            }
+          ]
+        },
+        {
+          "id": "sugar",
+          "name": "Sugar",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "0",
+              "name": "0 sugars",
+              "price": 0
+            },
+            {
+              "id": "1",
+              "name": "1 sugar",
+              "price": 0
+            },
+            {
+              "id": "2",
+              "name": "2 sugars",
+              "price": 0
+            },
+            {
+              "id": "3",
+              "name": "3 sugars",
+              "price": 0
+            },
+            {
+              "id": "4",
+              "name": "4 sugars",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "allergens": ["Milk (depends on selection)"],
+      "tags": [],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 17,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/hot-chocolate-480.webp",
+      "imageDetailUrl": "/menu-items/hot-chocolate-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Hot Chocolate",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "matcha-latte",
+      "name": "Matcha Latte",
+      "categoryId": "non-coffee",
+      "description": "Whisked green matcha and steamed milk, smooth and earthy.",
+      "basePrice": 600,
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "hot",
+              "name": "Hot",
+              "price": 0
+            },
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "milk",
+          "name": "Milk",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "full-cream",
+              "name": "Full Cream",
+              "price": 0
+            },
+            {
+              "id": "skim",
+              "name": "Skim",
+              "price": 0
+            },
+            {
+              "id": "oat",
+              "name": "Oat",
+              "price": 80
+            },
+            {
+              "id": "almond",
+              "name": "Almond",
+              "price": 80
+            },
+            {
+              "id": "soy",
+              "name": "Soy",
+              "price": 80
+            }
+          ]
+        },
+        {
+          "id": "sugar",
+          "name": "Sugar",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "0",
+              "name": "0 sugars",
+              "price": 0
+            },
+            {
+              "id": "1",
+              "name": "1 sugar",
+              "price": 0
+            },
+            {
+              "id": "2",
+              "name": "2 sugars",
+              "price": 0
+            },
+            {
+              "id": "3",
+              "name": "3 sugars",
+              "price": 0
+            },
+            {
+              "id": "4",
+              "name": "4 sugars",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "allergens": ["Milk (depends on selection)"],
+      "tags": ["Popular"],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 18,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/matcha-latte-480.webp",
+      "imageDetailUrl": "/menu-items/matcha-latte-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Matcha Latte",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "iced-matcha-latte",
+      "name": "Iced Matcha Latte",
+      "categoryId": "non-coffee",
+      "description": "Green matcha poured over cold milk and ice.",
+      "basePrice": 650,
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "milk",
+          "name": "Milk",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "full-cream",
+              "name": "Full Cream",
+              "price": 0
+            },
+            {
+              "id": "skim",
+              "name": "Skim",
+              "price": 0
+            },
+            {
+              "id": "oat",
+              "name": "Oat",
+              "price": 80
+            },
+            {
+              "id": "almond",
+              "name": "Almond",
+              "price": 80
+            },
+            {
+              "id": "soy",
+              "name": "Soy",
+              "price": 80
+            }
+          ]
+        },
+        {
+          "id": "sugar",
+          "name": "Sugar",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "0",
+              "name": "0 sugars",
+              "price": 0
+            },
+            {
+              "id": "1",
+              "name": "1 sugar",
+              "price": 0
+            },
+            {
+              "id": "2",
+              "name": "2 sugars",
+              "price": 0
+            },
+            {
+              "id": "3",
+              "name": "3 sugars",
+              "price": 0
+            },
+            {
+              "id": "4",
+              "name": "4 sugars",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "allergens": ["Milk (depends on selection)"],
+      "tags": [],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 19,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/iced-matcha-latte-480.webp",
+      "imageDetailUrl": "/menu-items/iced-matcha-latte-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Iced Matcha Latte",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "chai-latte",
+      "name": "Chai Latte",
+      "categoryId": "non-coffee",
+      "description": "Warming cinnamon-spiced tea and creamy milk; hot or iced.",
+      "basePrice": 550,
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "hot",
+              "name": "Hot",
+              "price": 0
+            },
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "milk",
+          "name": "Milk",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "full-cream",
+              "name": "Full Cream",
+              "price": 0
+            },
+            {
+              "id": "skim",
+              "name": "Skim",
+              "price": 0
+            },
+            {
+              "id": "oat",
+              "name": "Oat",
+              "price": 80
+            },
+            {
+              "id": "almond",
+              "name": "Almond",
+              "price": 80
+            },
+            {
+              "id": "soy",
+              "name": "Soy",
+              "price": 80
+            }
+          ]
+        },
+        {
+          "id": "sugar",
+          "name": "Sugar",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "0",
+              "name": "0 sugars",
+              "price": 0
+            },
+            {
+              "id": "1",
+              "name": "1 sugar",
+              "price": 0
+            },
+            {
+              "id": "2",
+              "name": "2 sugars",
+              "price": 0
+            },
+            {
+              "id": "3",
+              "name": "3 sugars",
+              "price": 0
+            },
+            {
+              "id": "4",
+              "name": "4 sugars",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "allergens": ["Milk (depends on selection)"],
+      "tags": [],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 20,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/chai-latte-480.webp",
+      "imageDetailUrl": "/menu-items/chai-latte-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Chai Latte",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "iced-chai",
+      "name": "Iced Chai",
+      "categoryId": "non-coffee",
+      "description": "Spiced chai and chilled milk over ice, sweet and refreshing.",
+      "basePrice": 600,
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "milk",
+          "name": "Milk",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "full-cream",
+              "name": "Full Cream",
+              "price": 0
+            },
+            {
+              "id": "skim",
+              "name": "Skim",
+              "price": 0
+            },
+            {
+              "id": "oat",
+              "name": "Oat",
+              "price": 80
+            },
+            {
+              "id": "almond",
+              "name": "Almond",
+              "price": 80
+            },
+            {
+              "id": "soy",
+              "name": "Soy",
+              "price": 80
+            }
+          ]
+        },
+        {
+          "id": "sugar",
+          "name": "Sugar",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "0",
+              "name": "0 sugars",
+              "price": 0
+            },
+            {
+              "id": "1",
+              "name": "1 sugar",
+              "price": 0
+            },
+            {
+              "id": "2",
+              "name": "2 sugars",
+              "price": 0
+            },
+            {
+              "id": "3",
+              "name": "3 sugars",
+              "price": 0
+            },
+            {
+              "id": "4",
+              "name": "4 sugars",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "allergens": ["Milk (depends on selection)"],
+      "tags": [],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 21,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/iced-chai-480.webp",
+      "imageDetailUrl": "/menu-items/iced-chai-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Iced Chai",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "strawberry-milk",
+      "name": "Strawberry Milk",
+      "categoryId": "non-coffee",
+      "description": "Strawberry pur\u00e9e and cold milk, gently sweet and berry-bright.",
+      "basePrice": 650,
+      "modifiers": [],
+      "allergens": ["Milk (depends on selection)"],
+      "tags": [],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 22,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/strawberry-milk-480.webp",
+      "imageDetailUrl": "/menu-items/strawberry-milk-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Strawberry Milk",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "fresh-orange-juice",
+      "name": "Fresh Orange Juice",
+      "categoryId": "non-coffee",
+      "description": "Fresh orange juice with a bright citrus finish, served chilled.",
+      "basePrice": 700,
+      "modifiers": [],
+      "allergens": [],
+      "tags": [],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 23,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/fresh-orange-juice-480.webp",
+      "imageDetailUrl": "/menu-items/fresh-orange-juice-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Fresh Orange Juice",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "apple-juice",
+      "name": "Apple Juice",
+      "categoryId": "non-coffee",
+      "description": "Chilled apple juice, crisp and naturally sweet.",
+      "basePrice": 600,
+      "modifiers": [],
+      "allergens": [],
+      "tags": [],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 24,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/apple-juice-480.webp",
+      "imageDetailUrl": "/menu-items/apple-juice-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Apple Juice",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "lemon-iced-tea",
+      "name": "Lemon Iced Tea",
+      "categoryId": "non-coffee",
+      "description": "Black tea, lemon and ice with a light citrus tang.",
+      "basePrice": 650,
+      "modifiers": [
+        {
+          "id": "sugar",
+          "name": "Sugar",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "0",
+              "name": "0 sugars",
+              "price": 0
+            },
+            {
+              "id": "1",
+              "name": "1 sugar",
+              "price": 0
+            },
+            {
+              "id": "2",
+              "name": "2 sugars",
+              "price": 0
+            },
+            {
+              "id": "3",
+              "name": "3 sugars",
+              "price": 0
+            },
+            {
+              "id": "4",
+              "name": "4 sugars",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "allergens": [],
+      "tags": [],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 25,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/lemon-iced-tea-480.webp",
+      "imageDetailUrl": "/menu-items/lemon-iced-tea-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Lemon Iced Tea",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "peach-iced-tea",
+      "name": "Peach Iced Tea",
+      "categoryId": "non-coffee",
+      "description": "Black tea with peach and ice, softly fruity and refreshing.",
+      "basePrice": 650,
+      "modifiers": [
+        {
+          "id": "sugar",
+          "name": "Sugar",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "0",
+              "name": "0 sugars",
+              "price": 0
+            },
+            {
+              "id": "1",
+              "name": "1 sugar",
+              "price": 0
+            },
+            {
+              "id": "2",
+              "name": "2 sugars",
+              "price": 0
+            },
+            {
+              "id": "3",
+              "name": "3 sugars",
+              "price": 0
+            },
+            {
+              "id": "4",
+              "name": "4 sugars",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "allergens": [],
+      "tags": [],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 26,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/peach-iced-tea-480.webp",
+      "imageDetailUrl": "/menu-items/peach-iced-tea-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Peach Iced Tea",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "mixed-berry-smoothie",
+      "name": "Mixed Berry Smoothie",
+      "categoryId": "non-coffee",
+      "description": "Mixed berries, banana and yoghurt blended thick and chilled.",
+      "basePrice": 850,
+      "modifiers": [],
+      "allergens": ["Milk (depends on selection)"],
+      "tags": [],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 27,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/mixed-berry-smoothie-480.webp",
+      "imageDetailUrl": "/menu-items/mixed-berry-smoothie-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Mixed Berry Smoothie",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "mango-smoothie",
+      "name": "Mango Smoothie",
+      "categoryId": "non-coffee",
+      "description": "Mango, yoghurt and milk blended into a creamy chilled smoothie.",
+      "basePrice": 850,
+      "modifiers": [],
+      "allergens": ["Milk (depends on selection)"],
+      "tags": [],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 28,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/mango-smoothie-480.webp",
+      "imageDetailUrl": "/menu-items/mango-smoothie-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Mango Smoothie",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "banana-smoothie",
+      "name": "Banana Smoothie",
+      "categoryId": "non-coffee",
+      "description": "Banana, milk and yoghurt blended smooth with a hint of cinnamon.",
+      "basePrice": 850,
+      "modifiers": [],
+      "allergens": ["Milk (depends on selection)"],
+      "tags": [],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 29,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/banana-smoothie-480.webp",
+      "imageDetailUrl": "/menu-items/banana-smoothie-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Banana Smoothie",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "sparkling-water",
+      "name": "Sparkling Water",
+      "categoryId": "non-coffee",
+      "description": "Chilled sparkling water with a crisp, bubbly finish.",
+      "basePrice": 450,
+      "modifiers": [],
+      "allergens": [],
+      "tags": [],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 30,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/sparkling-water-480.webp",
+      "imageDetailUrl": "/menu-items/sparkling-water-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Sparkling Water",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "still-water",
+      "name": "Still Water",
+      "categoryId": "non-coffee",
+      "description": "Chilled still water, clean and refreshing.",
+      "basePrice": 400,
+      "modifiers": [],
+      "allergens": [],
+      "tags": [],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 31,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/still-water-480.webp",
+      "imageDetailUrl": "/menu-items/still-water-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Still Water",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "strawberry-matcha-cloud",
+      "name": "Strawberry Matcha Cloud",
+      "categoryId": "new-products",
+      "description": "Strawberry pur\u00e9e, matcha and milk topped with airy cream; iced only.",
+      "basePrice": 850,
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "milk",
+          "name": "Milk",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "full-cream",
+              "name": "Full Cream",
+              "price": 0
+            },
+            {
+              "id": "skim",
+              "name": "Skim",
+              "price": 0
+            },
+            {
+              "id": "oat",
+              "name": "Oat",
+              "price": 80
+            },
+            {
+              "id": "almond",
+              "name": "Almond",
+              "price": 80
+            },
+            {
+              "id": "soy",
+              "name": "Soy",
+              "price": 80
+            }
+          ]
+        },
+        {
+          "id": "sugar",
+          "name": "Sugar",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "0",
+              "name": "0 sugars",
+              "price": 0
+            },
+            {
+              "id": "1",
+              "name": "1 sugar",
+              "price": 0
+            },
+            {
+              "id": "2",
+              "name": "2 sugars",
+              "price": 0
+            },
+            {
+              "id": "3",
+              "name": "3 sugars",
+              "price": 0
+            },
+            {
+              "id": "4",
+              "name": "4 sugars",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Extras",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "shot",
+              "name": "Extra Shot",
+              "price": 80
+            },
+            {
+              "id": "decaf",
+              "name": "Decaf",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "allergens": ["Milk (depends on selection)"],
+      "tags": ["New", "Limited"],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 32,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/strawberry-matcha-cloud-480.webp",
+      "imageDetailUrl": "/menu-items/strawberry-matcha-cloud-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Strawberry Matcha Cloud",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "black-cherry-iced-latte",
+      "name": "Black Cherry Iced Latte",
+      "categoryId": "new-products",
+      "description": "Espresso, black cherry compote and cold milk over ice; fruity and smooth, iced only.",
+      "basePrice": 800,
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "milk",
+          "name": "Milk",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "full-cream",
+              "name": "Full Cream",
+              "price": 0
+            },
+            {
+              "id": "skim",
+              "name": "Skim",
+              "price": 0
+            },
+            {
+              "id": "oat",
+              "name": "Oat",
+              "price": 80
+            },
+            {
+              "id": "almond",
+              "name": "Almond",
+              "price": 80
+            },
+            {
+              "id": "soy",
+              "name": "Soy",
+              "price": 80
+            }
+          ]
+        },
+        {
+          "id": "sugar",
+          "name": "Sugar",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "0",
+              "name": "0 sugars",
+              "price": 0
+            },
+            {
+              "id": "1",
+              "name": "1 sugar",
+              "price": 0
+            },
+            {
+              "id": "2",
+              "name": "2 sugars",
+              "price": 0
+            },
+            {
+              "id": "3",
+              "name": "3 sugars",
+              "price": 0
+            },
+            {
+              "id": "4",
+              "name": "4 sugars",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Extras",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "shot",
+              "name": "Extra Shot",
+              "price": 80
+            },
+            {
+              "id": "decaf",
+              "name": "Decaf",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "allergens": ["Milk (depends on selection)"],
+      "tags": ["New", "Limited"],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 33,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/black-cherry-iced-latte-480.webp",
+      "imageDetailUrl": "/menu-items/black-cherry-iced-latte-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Black Cherry Iced Latte",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "brown-sugar-oat-latte",
+      "name": "Brown Sugar Oat Latte",
+      "categoryId": "new-products",
+      "description": "Espresso, oat milk and brown sugar syrup; silky caramel notes, hot or iced.",
+      "basePrice": 750,
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "hot",
+              "name": "Hot",
+              "price": 0
+            },
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "milk",
+          "name": "Milk",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "full-cream",
+              "name": "Full Cream",
+              "price": 0
+            },
+            {
+              "id": "skim",
+              "name": "Skim",
+              "price": 0
+            },
+            {
+              "id": "oat",
+              "name": "Oat",
+              "price": 80
+            },
+            {
+              "id": "almond",
+              "name": "Almond",
+              "price": 80
+            },
+            {
+              "id": "soy",
+              "name": "Soy",
+              "price": 80
+            }
+          ]
+        },
+        {
+          "id": "sugar",
+          "name": "Sugar",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "0",
+              "name": "0 sugars",
+              "price": 0
+            },
+            {
+              "id": "1",
+              "name": "1 sugar",
+              "price": 0
+            },
+            {
+              "id": "2",
+              "name": "2 sugars",
+              "price": 0
+            },
+            {
+              "id": "3",
+              "name": "3 sugars",
+              "price": 0
+            },
+            {
+              "id": "4",
+              "name": "4 sugars",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Extras",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "shot",
+              "name": "Extra Shot",
+              "price": 80
+            },
+            {
+              "id": "decaf",
+              "name": "Decaf",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "allergens": ["Milk (depends on selection)"],
+      "tags": ["New", "Limited"],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 34,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/brown-sugar-oat-latte-480.webp",
+      "imageDetailUrl": "/menu-items/brown-sugar-oat-latte-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Brown Sugar Oat Latte",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "pistachio-cream-latte",
+      "name": "Pistachio Cream Latte",
+      "categoryId": "new-products",
+      "description": "Espresso and milk with whipped pistachio cream; nutty and velvety, hot or iced.",
+      "basePrice": 800,
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "hot",
+              "name": "Hot",
+              "price": 0
+            },
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "milk",
+          "name": "Milk",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "full-cream",
+              "name": "Full Cream",
+              "price": 0
+            },
+            {
+              "id": "skim",
+              "name": "Skim",
+              "price": 0
+            },
+            {
+              "id": "oat",
+              "name": "Oat",
+              "price": 80
+            },
+            {
+              "id": "almond",
+              "name": "Almond",
+              "price": 80
+            },
+            {
+              "id": "soy",
+              "name": "Soy",
+              "price": 80
+            }
+          ]
+        },
+        {
+          "id": "sugar",
+          "name": "Sugar",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "0",
+              "name": "0 sugars",
+              "price": 0
+            },
+            {
+              "id": "1",
+              "name": "1 sugar",
+              "price": 0
+            },
+            {
+              "id": "2",
+              "name": "2 sugars",
+              "price": 0
+            },
+            {
+              "id": "3",
+              "name": "3 sugars",
+              "price": 0
+            },
+            {
+              "id": "4",
+              "name": "4 sugars",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Extras",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "shot",
+              "name": "Extra Shot",
+              "price": 80
+            },
+            {
+              "id": "decaf",
+              "name": "Decaf",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "allergens": ["Milk (depends on selection)", "Tree nuts"],
+      "tags": ["New", "Limited"],
+      "dietaryTags": ["Vegetarian", "Contains Nuts"],
+      "status": "Available",
+      "displayOrder": 35,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/pistachio-cream-latte-480.webp",
+      "imageDetailUrl": "/menu-items/pistachio-cream-latte-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Pistachio Cream Latte",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "tiramisu-latte",
+      "name": "Tiramisu Latte",
+      "categoryId": "new-products",
+      "description": "Espresso and milk with vanilla cream and cocoa; dessert-like and smooth, hot or iced.",
+      "basePrice": 800,
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "hot",
+              "name": "Hot",
+              "price": 0
+            },
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "milk",
+          "name": "Milk",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "full-cream",
+              "name": "Full Cream",
+              "price": 0
+            },
+            {
+              "id": "skim",
+              "name": "Skim",
+              "price": 0
+            },
+            {
+              "id": "oat",
+              "name": "Oat",
+              "price": 80
+            },
+            {
+              "id": "almond",
+              "name": "Almond",
+              "price": 80
+            },
+            {
+              "id": "soy",
+              "name": "Soy",
+              "price": 80
+            }
+          ]
+        },
+        {
+          "id": "sugar",
+          "name": "Sugar",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "0",
+              "name": "0 sugars",
+              "price": 0
+            },
+            {
+              "id": "1",
+              "name": "1 sugar",
+              "price": 0
+            },
+            {
+              "id": "2",
+              "name": "2 sugars",
+              "price": 0
+            },
+            {
+              "id": "3",
+              "name": "3 sugars",
+              "price": 0
+            },
+            {
+              "id": "4",
+              "name": "4 sugars",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Extras",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "shot",
+              "name": "Extra Shot",
+              "price": 80
+            },
+            {
+              "id": "decaf",
+              "name": "Decaf",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "allergens": ["Milk (depends on selection)"],
+      "tags": ["New", "Limited"],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 36,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/tiramisu-latte-480.webp",
+      "imageDetailUrl": "/menu-items/tiramisu-latte-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Tiramisu Latte",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "mango-matcha",
+      "name": "Mango Matcha",
+      "categoryId": "new-products",
+      "description": "Mango pur\u00e9e, matcha and milk in bright fruity layers; refreshing, iced only.",
+      "basePrice": 850,
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "milk",
+          "name": "Milk",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "full-cream",
+              "name": "Full Cream",
+              "price": 0
+            },
+            {
+              "id": "skim",
+              "name": "Skim",
+              "price": 0
+            },
+            {
+              "id": "oat",
+              "name": "Oat",
+              "price": 80
+            },
+            {
+              "id": "almond",
+              "name": "Almond",
+              "price": 80
+            },
+            {
+              "id": "soy",
+              "name": "Soy",
+              "price": 80
+            }
+          ]
+        },
+        {
+          "id": "sugar",
+          "name": "Sugar",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "0",
+              "name": "0 sugars",
+              "price": 0
+            },
+            {
+              "id": "1",
+              "name": "1 sugar",
+              "price": 0
+            },
+            {
+              "id": "2",
+              "name": "2 sugars",
+              "price": 0
+            },
+            {
+              "id": "3",
+              "name": "3 sugars",
+              "price": 0
+            },
+            {
+              "id": "4",
+              "name": "4 sugars",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Extras",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "shot",
+              "name": "Extra Shot",
+              "price": 80
+            },
+            {
+              "id": "decaf",
+              "name": "Decaf",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "allergens": ["Milk (depends on selection)"],
+      "tags": ["New", "Limited"],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 37,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/mango-matcha-480.webp",
+      "imageDetailUrl": "/menu-items/mango-matcha-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Mango Matcha",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "yuzu-espresso-tonic",
+      "name": "Yuzu Espresso Tonic",
+      "categoryId": "new-products",
+      "description": "Espresso, yuzu citrus and tonic over ice; bright, bittersweet and sparkling, iced only.",
+      "basePrice": 850,
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "sugar",
+          "name": "Sugar",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "0",
+              "name": "0 sugars",
+              "price": 0
+            },
+            {
+              "id": "1",
+              "name": "1 sugar",
+              "price": 0
+            },
+            {
+              "id": "2",
+              "name": "2 sugars",
+              "price": 0
+            },
+            {
+              "id": "3",
+              "name": "3 sugars",
+              "price": 0
+            },
+            {
+              "id": "4",
+              "name": "4 sugars",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Extras",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "shot",
+              "name": "Extra Shot",
+              "price": 80
+            },
+            {
+              "id": "decaf",
+              "name": "Decaf",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "allergens": [],
+      "tags": ["New", "Limited"],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 38,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/yuzu-espresso-tonic-480.webp",
+      "imageDetailUrl": "/menu-items/yuzu-espresso-tonic-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Yuzu Espresso Tonic",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "black-sesame-latte",
+      "name": "Black Sesame Latte",
+      "categoryId": "new-products",
+      "description": "Toasted black sesame and milk with espresso; nutty and creamy, hot or iced.",
+      "basePrice": 750,
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "hot",
+              "name": "Hot",
+              "price": 0
+            },
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "milk",
+          "name": "Milk",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "full-cream",
+              "name": "Full Cream",
+              "price": 0
+            },
+            {
+              "id": "skim",
+              "name": "Skim",
+              "price": 0
+            },
+            {
+              "id": "oat",
+              "name": "Oat",
+              "price": 80
+            },
+            {
+              "id": "almond",
+              "name": "Almond",
+              "price": 80
+            },
+            {
+              "id": "soy",
+              "name": "Soy",
+              "price": 80
+            }
+          ]
+        },
+        {
+          "id": "sugar",
+          "name": "Sugar",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "0",
+              "name": "0 sugars",
+              "price": 0
+            },
+            {
+              "id": "1",
+              "name": "1 sugar",
+              "price": 0
+            },
+            {
+              "id": "2",
+              "name": "2 sugars",
+              "price": 0
+            },
+            {
+              "id": "3",
+              "name": "3 sugars",
+              "price": 0
+            },
+            {
+              "id": "4",
+              "name": "4 sugars",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Extras",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "shot",
+              "name": "Extra Shot",
+              "price": 80
+            },
+            {
+              "id": "decaf",
+              "name": "Decaf",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "allergens": ["Milk (depends on selection)", "Sesame"],
+      "tags": ["New", "Limited"],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 39,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/black-sesame-latte-480.webp",
+      "imageDetailUrl": "/menu-items/black-sesame-latte-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Black Sesame Latte",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "coconut-cold-brew",
+      "name": "Coconut Cold Brew",
+      "categoryId": "new-products",
+      "description": "Cold brew with coconut milk over ice; mellow coffee and a creamy tropical finish, iced only.",
+      "basePrice": 800,
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "milk",
+          "name": "Milk",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "full-cream",
+              "name": "Full Cream",
+              "price": 0
+            },
+            {
+              "id": "skim",
+              "name": "Skim",
+              "price": 0
+            },
+            {
+              "id": "oat",
+              "name": "Oat",
+              "price": 80
+            },
+            {
+              "id": "almond",
+              "name": "Almond",
+              "price": 80
+            },
+            {
+              "id": "soy",
+              "name": "Soy",
+              "price": 80
+            }
+          ]
+        },
+        {
+          "id": "sugar",
+          "name": "Sugar",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "0",
+              "name": "0 sugars",
+              "price": 0
+            },
+            {
+              "id": "1",
+              "name": "1 sugar",
+              "price": 0
+            },
+            {
+              "id": "2",
+              "name": "2 sugars",
+              "price": 0
+            },
+            {
+              "id": "3",
+              "name": "3 sugars",
+              "price": 0
+            },
+            {
+              "id": "4",
+              "name": "4 sugars",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Extras",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "shot",
+              "name": "Extra Shot",
+              "price": 80
+            },
+            {
+              "id": "decaf",
+              "name": "Decaf",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "allergens": ["Milk (depends on selection)"],
+      "tags": ["New", "Limited"],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 40,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/coconut-cold-brew-480.webp",
+      "imageDetailUrl": "/menu-items/coconut-cold-brew-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Coconut Cold Brew",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "cherry-chocolate",
+      "name": "Cherry Chocolate",
+      "categoryId": "new-products",
+      "description": "Rich cocoa, cherry compote and milk; fruity chocolate comfort, hot or iced.",
+      "basePrice": 750,
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "hot",
+              "name": "Hot",
+              "price": 0
+            },
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "milk",
+          "name": "Milk",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "full-cream",
+              "name": "Full Cream",
+              "price": 0
+            },
+            {
+              "id": "skim",
+              "name": "Skim",
+              "price": 0
+            },
+            {
+              "id": "oat",
+              "name": "Oat",
+              "price": 80
+            },
+            {
+              "id": "almond",
+              "name": "Almond",
+              "price": 80
+            },
+            {
+              "id": "soy",
+              "name": "Soy",
+              "price": 80
+            }
+          ]
+        },
+        {
+          "id": "sugar",
+          "name": "Sugar",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "0",
+              "name": "0 sugars",
+              "price": 0
+            },
+            {
+              "id": "1",
+              "name": "1 sugar",
+              "price": 0
+            },
+            {
+              "id": "2",
+              "name": "2 sugars",
+              "price": 0
+            },
+            {
+              "id": "3",
+              "name": "3 sugars",
+              "price": 0
+            },
+            {
+              "id": "4",
+              "name": "4 sugars",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Extras",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "shot",
+              "name": "Extra Shot",
+              "price": 80
+            },
+            {
+              "id": "decaf",
+              "name": "Decaf",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "allergens": ["Milk (depends on selection)"],
+      "tags": ["New", "Limited"],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 41,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/cherry-chocolate-480.webp",
+      "imageDetailUrl": "/menu-items/cherry-chocolate-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Cherry Chocolate",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "butter-croissant",
+      "name": "Butter Croissant",
+      "categoryId": "food",
+      "description": "Golden laminated pastry with a crisp shell and buttery centre.",
+      "basePrice": 600,
+      "modifiers": [],
+      "allergens": ["Wheat", "Milk", "Egg"],
+      "tags": [],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 42,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/butter-croissant-480.webp",
+      "imageDetailUrl": "/menu-items/butter-croissant-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Butter Croissant",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "almond-croissant",
+      "name": "Almond Croissant",
+      "categoryId": "food",
+      "description": "Flaky pastry filled with almond cream and topped with toasted flakes.",
+      "basePrice": 750,
+      "modifiers": [],
+      "allergens": ["Wheat", "Milk", "Egg", "Tree nuts"],
+      "tags": [],
+      "dietaryTags": ["Vegetarian", "Contains Nuts"],
+      "status": "Available",
+      "displayOrder": 43,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/almond-croissant-480.webp",
+      "imageDetailUrl": "/menu-items/almond-croissant-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Almond Croissant",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "ham-and-cheese-croissant",
+      "name": "Ham & Cheese Croissant",
+      "categoryId": "food",
+      "description": "A buttery croissant layered with ham and melted cheese.",
+      "basePrice": 1050,
+      "modifiers": [],
+      "allergens": ["Wheat", "Milk", "Egg"],
+      "tags": [],
+      "dietaryTags": [],
+      "status": "Available",
+      "displayOrder": 44,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/ham-and-cheese-croissant-480.webp",
+      "imageDetailUrl": "/menu-items/ham-and-cheese-croissant-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Ham & Cheese Croissant",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "banana-bread",
+      "name": "Banana Bread",
+      "categoryId": "food",
+      "description": "A thick slice of banana bread, served fresh or lightly toasted.",
+      "basePrice": 700,
+      "modifiers": [
+        {
+          "id": "toast",
+          "name": "Serve",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "fresh",
+              "name": "Fresh",
+              "price": 0
+            },
+            {
+              "id": "toasted",
+              "name": "Toasted",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "allergens": ["Wheat", "Milk", "Egg"],
+      "tags": [],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 45,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/banana-bread-480.webp",
+      "imageDetailUrl": "/menu-items/banana-bread-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Banana Bread",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "avocado-toast",
+      "name": "Avocado Toast",
+      "categoryId": "food",
+      "description": "Sourdough with smashed avocado, lemon and a pinch of chilli.",
+      "basePrice": 1450,
+      "modifiers": [
+        {
+          "id": "additions",
+          "name": "Add to your meal",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "egg",
+              "name": "Add Egg",
+              "price": 300
+            },
+            {
+              "id": "bacon",
+              "name": "Add Bacon",
+              "price": 400
+            },
+            {
+              "id": "avocado",
+              "name": "Add Avocado",
+              "price": 350
+            }
+          ]
+        },
+        {
+          "id": "bread",
+          "name": "Bread option",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "standard",
+              "name": "Standard",
+              "price": 0
+            },
+            {
+              "id": "gluten-free",
+              "name": "Gluten-free option",
+              "price": 200
+            }
+          ]
+        }
+      ],
+      "allergens": ["Wheat"],
+      "tags": ["Popular"],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 46,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/avocado-toast-480.webp",
+      "imageDetailUrl": "/menu-items/avocado-toast-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Avocado Toast",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "bacon-and-egg-roll",
+      "name": "Bacon & Egg Roll",
+      "categoryId": "food",
+      "description": "A soft roll layered with bacon, fried egg and tomato relish.",
+      "basePrice": 1350,
+      "modifiers": [
+        {
+          "id": "additions",
+          "name": "Add to your meal",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "egg",
+              "name": "Add Egg",
+              "price": 300
+            },
+            {
+              "id": "bacon",
+              "name": "Add Bacon",
+              "price": 400
+            },
+            {
+              "id": "avocado",
+              "name": "Add Avocado",
+              "price": 350
+            }
+          ]
+        },
+        {
+          "id": "bread",
+          "name": "Bread option",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "standard",
+              "name": "Standard",
+              "price": 0
+            },
+            {
+              "id": "gluten-free",
+              "name": "Gluten-free option",
+              "price": 200
+            }
+          ]
+        }
+      ],
+      "allergens": ["Wheat", "Milk", "Egg"],
+      "tags": ["Popular"],
+      "dietaryTags": [],
+      "status": "Available",
+      "displayOrder": 47,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/bacon-and-egg-roll-480.webp",
+      "imageDetailUrl": "/menu-items/bacon-and-egg-roll-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Bacon & Egg Roll",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "sausage-and-egg-roll",
+      "name": "Sausage & Egg Roll",
+      "categoryId": "food",
+      "description": "A toasted roll with breakfast sausage, fried egg and tomato sauce.",
+      "basePrice": 1400,
+      "modifiers": [
+        {
+          "id": "additions",
+          "name": "Add to your meal",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "egg",
+              "name": "Add Egg",
+              "price": 300
+            },
+            {
+              "id": "bacon",
+              "name": "Add Bacon",
+              "price": 400
+            },
+            {
+              "id": "avocado",
+              "name": "Add Avocado",
+              "price": 350
+            }
+          ]
+        },
+        {
+          "id": "bread",
+          "name": "Bread option",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "standard",
+              "name": "Standard",
+              "price": 0
+            },
+            {
+              "id": "gluten-free",
+              "name": "Gluten-free option",
+              "price": 200
+            }
+          ]
+        }
+      ],
+      "allergens": ["Wheat", "Milk", "Egg"],
+      "tags": [],
+      "dietaryTags": [],
+      "status": "Available",
+      "displayOrder": 48,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/sausage-and-egg-roll-480.webp",
+      "imageDetailUrl": "/menu-items/sausage-and-egg-roll-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Sausage & Egg Roll",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "chicken-toastie",
+      "name": "Chicken Toastie",
+      "categoryId": "food",
+      "description": "Golden toasted bread with chicken, melted cheese and herb mayo.",
+      "basePrice": 1450,
+      "modifiers": [
+        {
+          "id": "additions",
+          "name": "Add to your meal",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "egg",
+              "name": "Add Egg",
+              "price": 300
+            },
+            {
+              "id": "bacon",
+              "name": "Add Bacon",
+              "price": 400
+            },
+            {
+              "id": "avocado",
+              "name": "Add Avocado",
+              "price": 350
+            }
+          ]
+        },
+        {
+          "id": "bread",
+          "name": "Bread option",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "standard",
+              "name": "Standard",
+              "price": 0
+            },
+            {
+              "id": "gluten-free",
+              "name": "Gluten-free option",
+              "price": 200
+            }
+          ]
+        }
+      ],
+      "allergens": ["Wheat", "Milk", "Egg"],
+      "tags": [],
+      "dietaryTags": [],
+      "status": "Available",
+      "displayOrder": 49,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/chicken-toastie-480.webp",
+      "imageDetailUrl": "/menu-items/chicken-toastie-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Chicken Toastie",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "ham-cheese-and-tomato-toastie",
+      "name": "Ham, Cheese & Tomato Toastie",
+      "categoryId": "food",
+      "description": "Toasted bread with ham, melting cheese and juicy tomato.",
+      "basePrice": 1350,
+      "modifiers": [
+        {
+          "id": "additions",
+          "name": "Add to your meal",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "egg",
+              "name": "Add Egg",
+              "price": 300
+            },
+            {
+              "id": "bacon",
+              "name": "Add Bacon",
+              "price": 400
+            },
+            {
+              "id": "avocado",
+              "name": "Add Avocado",
+              "price": 350
+            }
+          ]
+        },
+        {
+          "id": "bread",
+          "name": "Bread option",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "standard",
+              "name": "Standard",
+              "price": 0
+            },
+            {
+              "id": "gluten-free",
+              "name": "Gluten-free option",
+              "price": 200
+            }
+          ]
+        }
+      ],
+      "allergens": ["Wheat", "Milk", "Egg"],
+      "tags": [],
+      "dietaryTags": [],
+      "status": "Available",
+      "displayOrder": 50,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/ham-cheese-and-tomato-toastie-480.webp",
+      "imageDetailUrl": "/menu-items/ham-cheese-and-tomato-toastie-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Ham, Cheese & Tomato Toastie",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "mushroom-and-cheese-toastie",
+      "name": "Mushroom & Cheese Toastie",
+      "categoryId": "food",
+      "description": "Golden toast with saut\u00e9ed mushrooms, cheese and herbs.",
+      "basePrice": 1400,
+      "modifiers": [
+        {
+          "id": "additions",
+          "name": "Add to your meal",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "egg",
+              "name": "Add Egg",
+              "price": 300
+            },
+            {
+              "id": "bacon",
+              "name": "Add Bacon",
+              "price": 400
+            },
+            {
+              "id": "avocado",
+              "name": "Add Avocado",
+              "price": 350
+            }
+          ]
+        },
+        {
+          "id": "bread",
+          "name": "Bread option",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "standard",
+              "name": "Standard",
+              "price": 0
+            },
+            {
+              "id": "gluten-free",
+              "name": "Gluten-free option",
+              "price": 200
+            }
+          ]
+        }
+      ],
+      "allergens": ["Wheat", "Milk", "Egg"],
+      "tags": [],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 51,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/mushroom-and-cheese-toastie-480.webp",
+      "imageDetailUrl": "/menu-items/mushroom-and-cheese-toastie-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Mushroom & Cheese Toastie",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "smoked-salmon-bagel",
+      "name": "Smoked Salmon Bagel",
+      "categoryId": "food",
+      "description": "A bagel with smoked salmon, cream cheese, cucumber and dill.",
+      "basePrice": 1650,
+      "modifiers": [
+        {
+          "id": "additions",
+          "name": "Add to your meal",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "egg",
+              "name": "Add Egg",
+              "price": 300
+            },
+            {
+              "id": "bacon",
+              "name": "Add Bacon",
+              "price": 400
+            },
+            {
+              "id": "avocado",
+              "name": "Add Avocado",
+              "price": 350
+            }
+          ]
+        }
+      ],
+      "allergens": ["Wheat", "Milk", "Egg", "Fish"],
+      "tags": [],
+      "dietaryTags": [],
+      "status": "Available",
+      "displayOrder": 52,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/smoked-salmon-bagel-480.webp",
+      "imageDetailUrl": "/menu-items/smoked-salmon-bagel-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Smoked Salmon Bagel",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "chicken-pesto-panini",
+      "name": "Chicken Pesto Panini",
+      "categoryId": "food",
+      "description": "Pressed panini with chicken, basil pesto and melted cheese.",
+      "basePrice": 1550,
+      "modifiers": [
+        {
+          "id": "additions",
+          "name": "Add to your meal",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "egg",
+              "name": "Add Egg",
+              "price": 300
+            },
+            {
+              "id": "bacon",
+              "name": "Add Bacon",
+              "price": 400
+            },
+            {
+              "id": "avocado",
+              "name": "Add Avocado",
+              "price": 350
+            }
+          ]
+        }
+      ],
+      "allergens": ["Wheat", "Milk", "Egg", "Tree nuts"],
+      "tags": [],
+      "dietaryTags": ["Contains Nuts"],
+      "status": "Available",
+      "displayOrder": 53,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/chicken-pesto-panini-480.webp",
+      "imageDetailUrl": "/menu-items/chicken-pesto-panini-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Chicken Pesto Panini",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "granola-and-greek-yoghurt",
+      "name": "Granola & Greek Yoghurt",
+      "categoryId": "food",
+      "description": "Greek yoghurt topped with oat granola, berries and honey.",
+      "basePrice": 1250,
+      "modifiers": [],
+      "allergens": ["Milk", "Oats", "Tree nuts"],
+      "tags": [],
+      "dietaryTags": ["Vegetarian", "Contains Nuts"],
+      "status": "Available",
+      "displayOrder": 54,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/granola-and-greek-yoghurt-480.webp",
+      "imageDetailUrl": "/menu-items/granola-and-greek-yoghurt-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Granola & Greek Yoghurt",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "acai-bowl",
+      "name": "Acai Bowl",
+      "categoryId": "food",
+      "description": "A chilled a\u00e7a\u00ed blend with banana, berries, granola and coconut.",
+      "basePrice": 1550,
+      "modifiers": [],
+      "allergens": ["Oats", "Tree nuts"],
+      "tags": [],
+      "dietaryTags": ["Vegetarian", "Contains Nuts"],
+      "status": "Available",
+      "displayOrder": 55,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/acai-bowl-480.webp",
+      "imageDetailUrl": "/menu-items/acai-bowl-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Acai Bowl",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "eggs-on-toast",
+      "name": "Eggs on Toast",
+      "categoryId": "food",
+      "description": "Two eggs on toasted sourdough with butter and fresh herbs.",
+      "basePrice": 1300,
+      "modifiers": [
+        {
+          "id": "additions",
+          "name": "Add to your meal",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "egg",
+              "name": "Add Egg",
+              "price": 300
+            },
+            {
+              "id": "bacon",
+              "name": "Add Bacon",
+              "price": 400
+            },
+            {
+              "id": "avocado",
+              "name": "Add Avocado",
+              "price": 350
+            }
+          ]
+        },
+        {
+          "id": "bread",
+          "name": "Bread option",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "standard",
+              "name": "Standard",
+              "price": 0
+            },
+            {
+              "id": "gluten-free",
+              "name": "Gluten-free option",
+              "price": 200
+            }
+          ]
+        }
+      ],
+      "allergens": ["Wheat", "Milk", "Egg"],
+      "tags": [],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 56,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/eggs-on-toast-480.webp",
+      "imageDetailUrl": "/menu-items/eggs-on-toast-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Eggs on Toast",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "big-breakfast",
+      "name": "Big Breakfast",
+      "categoryId": "food",
+      "description": "Eggs, bacon, sausage, mushrooms and tomato with sourdough.",
+      "basePrice": 2250,
+      "modifiers": [
+        {
+          "id": "additions",
+          "name": "Add to your meal",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "egg",
+              "name": "Add Egg",
+              "price": 300
+            },
+            {
+              "id": "bacon",
+              "name": "Add Bacon",
+              "price": 400
+            },
+            {
+              "id": "avocado",
+              "name": "Add Avocado",
+              "price": 350
+            }
+          ]
+        },
+        {
+          "id": "bread",
+          "name": "Bread option",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "standard",
+              "name": "Standard",
+              "price": 0
+            },
+            {
+              "id": "gluten-free",
+              "name": "Gluten-free option",
+              "price": 200
+            }
+          ]
+        }
+      ],
+      "allergens": ["Wheat", "Milk", "Egg"],
+      "tags": [],
+      "dietaryTags": [],
+      "status": "Available",
+      "displayOrder": 57,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/big-breakfast-480.webp",
+      "imageDetailUrl": "/menu-items/big-breakfast-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Big Breakfast",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "breakfast-wrap",
+      "name": "Breakfast Wrap",
+      "categoryId": "food",
+      "description": "A toasted wrap packed with egg, bacon, greens and tomato relish.",
+      "basePrice": 1500,
+      "modifiers": [
+        {
+          "id": "additions",
+          "name": "Add to your meal",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "egg",
+              "name": "Add Egg",
+              "price": 300
+            },
+            {
+              "id": "bacon",
+              "name": "Add Bacon",
+              "price": 400
+            },
+            {
+              "id": "avocado",
+              "name": "Add Avocado",
+              "price": 350
+            }
+          ]
+        }
+      ],
+      "allergens": ["Wheat", "Milk", "Egg"],
+      "tags": [],
+      "dietaryTags": [],
+      "status": "Available",
+      "displayOrder": 58,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/breakfast-wrap-480.webp",
+      "imageDetailUrl": "/menu-items/breakfast-wrap-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Breakfast Wrap",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "halloumi-and-avocado-roll",
+      "name": "Halloumi & Avocado Roll",
+      "categoryId": "food",
+      "description": "A soft roll with grilled halloumi, avocado and leafy greens.",
+      "basePrice": 1550,
+      "modifiers": [
+        {
+          "id": "additions",
+          "name": "Add to your meal",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "egg",
+              "name": "Add Egg",
+              "price": 300
+            },
+            {
+              "id": "bacon",
+              "name": "Add Bacon",
+              "price": 400
+            },
+            {
+              "id": "avocado",
+              "name": "Add Avocado",
+              "price": 350
+            }
+          ]
+        },
+        {
+          "id": "bread",
+          "name": "Bread option",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "standard",
+              "name": "Standard",
+              "price": 0
+            },
+            {
+              "id": "gluten-free",
+              "name": "Gluten-free option",
+              "price": 200
+            }
+          ]
+        }
+      ],
+      "allergens": ["Wheat", "Milk", "Egg"],
+      "tags": [],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 59,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/halloumi-and-avocado-roll-480.webp",
+      "imageDetailUrl": "/menu-items/halloumi-and-avocado-roll-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Halloumi & Avocado Roll",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "chocolate-brownie",
+      "name": "Chocolate Brownie",
+      "categoryId": "food",
+      "description": "A rich chocolate square with a fudgy middle and crisp top.",
+      "basePrice": 650,
+      "modifiers": [],
+      "allergens": ["Wheat", "Milk", "Egg", "Soy"],
+      "tags": [],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 60,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/chocolate-brownie-480.webp",
+      "imageDetailUrl": "/menu-items/chocolate-brownie-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Chocolate Brownie",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "carrot-cake",
+      "name": "Carrot Cake",
+      "categoryId": "food",
+      "description": "Spiced carrot cake with cream cheese icing and walnut pieces.",
+      "basePrice": 750,
+      "modifiers": [],
+      "allergens": ["Wheat", "Milk", "Egg", "Tree nuts"],
+      "tags": [],
+      "dietaryTags": ["Vegetarian", "Contains Nuts"],
+      "status": "Available",
+      "displayOrder": 61,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/carrot-cake-480.webp",
+      "imageDetailUrl": "/menu-items/carrot-cake-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Carrot Cake",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "basque-cheesecake",
+      "name": "Basque Cheesecake",
+      "categoryId": "food",
+      "description": "Creamy baked cheesecake with a caramelised top and soft centre.",
+      "basePrice": 850,
+      "modifiers": [],
+      "allergens": ["Milk", "Egg"],
+      "tags": [],
+      "dietaryTags": ["Vegetarian"],
+      "status": "Available",
+      "displayOrder": 62,
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/basque-cheesecake-480.webp",
+      "imageDetailUrl": "/menu-items/basque-cheesecake-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Basque Cheesecake",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "chocolate",
+      "categoryId": "non-coffee",
+      "name": "Chocolate",
+      "description": "Comfort in a cup. Rich cocoa and steamed milk.",
+      "basePrice": 500,
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "hot",
+              "name": "Hot",
+              "price": 0
+            },
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "milk",
+          "name": "Milk",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "full-cream",
+              "name": "Full Cream",
+              "price": 0
+            },
+            {
+              "id": "skim",
+              "name": "Skim",
+              "price": 0
+            },
+            {
+              "id": "oat",
+              "name": "Oat",
+              "price": 80
+            },
+            {
+              "id": "almond",
+              "name": "Almond",
+              "price": 80
+            },
+            {
+              "id": "soy",
+              "name": "Soy",
+              "price": 80
+            }
+          ]
+        },
+        {
+          "id": "sugar",
+          "name": "Sugar",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "0",
+              "name": "0 sugars",
+              "price": 0
+            },
+            {
+              "id": "1",
+              "name": "1 sugar",
+              "price": 0
+            },
+            {
+              "id": "2",
+              "name": "2 sugars",
+              "price": 0
+            },
+            {
+              "id": "3",
+              "name": "3 sugars",
+              "price": 0
+            },
+            {
+              "id": "4",
+              "name": "4 sugars",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Extras",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "shot",
+              "name": "Extra Shot",
+              "price": 80
+            },
+            {
+              "id": "decaf",
+              "name": "Decaf",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "allergens": ["Milk (depends on selection)"],
+      "tags": [],
+      "status": "Available",
+      "displayOrder": 63,
+      "dietaryTags": ["Vegetarian"],
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/chocolate-480.webp",
+      "imageDetailUrl": "/menu-items/chocolate-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Chocolate",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "strawberry-matcha-latte",
+      "categoryId": "new-products",
+      "name": "Strawberry Matcha Latte",
+      "description": "Strawberry, milk and matcha. A bright little afternoon escape.",
+      "basePrice": 750,
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "hot",
+              "name": "Hot",
+              "price": 0
+            },
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "milk",
+          "name": "Milk",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "full-cream",
+              "name": "Full Cream",
+              "price": 0
+            },
+            {
+              "id": "skim",
+              "name": "Skim",
+              "price": 0
+            },
+            {
+              "id": "oat",
+              "name": "Oat",
+              "price": 80
+            },
+            {
+              "id": "almond",
+              "name": "Almond",
+              "price": 80
+            },
+            {
+              "id": "soy",
+              "name": "Soy",
+              "price": 80
+            }
+          ]
+        },
+        {
+          "id": "sugar",
+          "name": "Sugar",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "0",
+              "name": "0 sugars",
+              "price": 0
+            },
+            {
+              "id": "1",
+              "name": "1 sugar",
+              "price": 0
+            },
+            {
+              "id": "2",
+              "name": "2 sugars",
+              "price": 0
+            },
+            {
+              "id": "3",
+              "name": "3 sugars",
+              "price": 0
+            },
+            {
+              "id": "4",
+              "name": "4 sugars",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Extras",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "shot",
+              "name": "Extra Shot",
+              "price": 80
+            },
+            {
+              "id": "decaf",
+              "name": "Decaf",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "allergens": ["Milk (depends on selection)"],
+      "tags": ["New", "Seasonal"],
+      "status": "Available",
+      "displayOrder": 64,
+      "dietaryTags": ["Vegetarian"],
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/strawberry-matcha-latte-480.webp",
+      "imageDetailUrl": "/menu-items/strawberry-matcha-latte-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Strawberry Matcha Latte",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "biscoff-latte",
+      "categoryId": "new-products",
+      "name": "Biscoff Latte",
+      "description": "Caramelised biscuit notes with our signature espresso.",
+      "basePrice": 700,
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "hot",
+              "name": "Hot",
+              "price": 0
+            },
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "milk",
+          "name": "Milk",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "full-cream",
+              "name": "Full Cream",
+              "price": 0
+            },
+            {
+              "id": "skim",
+              "name": "Skim",
+              "price": 0
+            },
+            {
+              "id": "oat",
+              "name": "Oat",
+              "price": 80
+            },
+            {
+              "id": "almond",
+              "name": "Almond",
+              "price": 80
+            },
+            {
+              "id": "soy",
+              "name": "Soy",
+              "price": 80
+            }
+          ]
+        },
+        {
+          "id": "sugar",
+          "name": "Sugar",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "0",
+              "name": "0 sugars",
+              "price": 0
+            },
+            {
+              "id": "1",
+              "name": "1 sugar",
+              "price": 0
+            },
+            {
+              "id": "2",
+              "name": "2 sugars",
+              "price": 0
+            },
+            {
+              "id": "3",
+              "name": "3 sugars",
+              "price": 0
+            },
+            {
+              "id": "4",
+              "name": "4 sugars",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Extras",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "shot",
+              "name": "Extra Shot",
+              "price": 80
+            },
+            {
+              "id": "decaf",
+              "name": "Decaf",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "allergens": ["Milk", "Wheat", "Soy"],
+      "tags": ["New", "Seasonal"],
+      "status": "Available",
+      "displayOrder": 65,
+      "dietaryTags": ["Vegetarian"],
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/biscoff-latte-480.webp",
+      "imageDetailUrl": "/menu-items/biscoff-latte-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Biscoff Latte",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "salted-caramel-cold-brew",
+      "categoryId": "new-products",
+      "name": "Salted Caramel Cold Brew",
+      "description": "Slow brewed coffee with caramel and a pinch of sea salt.",
+      "basePrice": 650,
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "milk",
+          "name": "Milk",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "full-cream",
+              "name": "Full Cream",
+              "price": 0
+            },
+            {
+              "id": "skim",
+              "name": "Skim",
+              "price": 0
+            },
+            {
+              "id": "oat",
+              "name": "Oat",
+              "price": 80
+            },
+            {
+              "id": "almond",
+              "name": "Almond",
+              "price": 80
+            },
+            {
+              "id": "soy",
+              "name": "Soy",
+              "price": 80
+            }
+          ]
+        },
+        {
+          "id": "sugar",
+          "name": "Sugar",
+          "required": false,
+          "multiple": false,
+          "options": [
+            {
+              "id": "0",
+              "name": "0 sugars",
+              "price": 0
+            },
+            {
+              "id": "1",
+              "name": "1 sugar",
+              "price": 0
+            },
+            {
+              "id": "2",
+              "name": "2 sugars",
+              "price": 0
+            },
+            {
+              "id": "3",
+              "name": "3 sugars",
+              "price": 0
+            },
+            {
+              "id": "4",
+              "name": "4 sugars",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Extras",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "shot",
+              "name": "Extra Shot",
+              "price": 80
+            },
+            {
+              "id": "decaf",
+              "name": "Decaf",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "allergens": ["Milk (depends on selection)"],
+      "tags": ["New", "Seasonal"],
+      "status": "Available",
+      "displayOrder": 66,
+      "dietaryTags": ["Vegetarian"],
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/salted-caramel-cold-brew-480.webp",
+      "imageDetailUrl": "/menu-items/salted-caramel-cold-brew-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Salted Caramel Cold Brew",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    },
+    {
+      "id": "breakfast-croissant",
+      "categoryId": "food",
+      "name": "Breakfast Croissant",
+      "basePrice": 950,
+      "description": "A buttery croissant filled with ham and melted cheese.",
+      "allergens": ["Wheat", "Milk", "Egg"],
+      "modifiers": [],
+      "tags": [],
+      "status": "Available",
+      "displayOrder": 67,
+      "dietaryTags": [],
+      "availableFrom": null,
+      "availableUntil": null,
+      "imageUrl": "/menu-items/breakfast-croissant-480.webp",
+      "imageDetailUrl": "/menu-items/breakfast-croissant-960.webp",
+      "imageAlt": "Original hand-drawn sticker illustration of Breakfast Croissant",
+      "imageSourceType": "original-illustration",
+      "active": true,
+      "available": true
+    }
+  ],
+  "version": "live-menu-v3"
+}

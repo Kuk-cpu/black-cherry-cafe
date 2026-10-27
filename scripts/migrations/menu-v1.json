@@ -1,0 +1,1926 @@
+{
+  "products": [
+    {
+      "id": "espresso",
+      "categoryId": "coffee",
+      "name": "Espresso",
+      "description": "A short, rich shot with a sweet chocolate finish.",
+      "basePrice": 350,
+      "imageUrl": "/menu-images/placeholders/brand-placeholder-480.webp",
+      "imageDetailUrl": "/menu-images/placeholders/brand-placeholder-960.webp",
+      "imageAlt": "Cup and plate line illustration; product photograph not available",
+      "imageSourceType": "placeholder",
+      "modifiers": [
+        {
+          "id": "extras",
+          "name": "Extras",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "shot",
+              "name": "Extra Shot",
+              "price": 100
+            },
+            {
+              "id": "vanilla",
+              "name": "Vanilla Syrup",
+              "price": 70
+            },
+            {
+              "id": "caramel",
+              "name": "Caramel Syrup",
+              "price": 70
+            },
+            {
+              "id": "hazelnut",
+              "name": "Hazelnut Syrup",
+              "price": 70
+            },
+            {
+              "id": "cream",
+              "name": "Whipped Cream",
+              "price": 80
+            }
+          ]
+        }
+      ],
+      "allergens": [],
+      "tags": [],
+      "status": "Available",
+      "displayOrder": 0
+    },
+    {
+      "id": "long-black",
+      "categoryId": "coffee",
+      "name": "Long Black",
+      "description": "Our house espresso over hot water. Clean and full-bodied.",
+      "basePrice": 450,
+      "imageUrl": "/menu-images/placeholders/brand-placeholder-480.webp",
+      "imageDetailUrl": "/menu-images/placeholders/brand-placeholder-960.webp",
+      "imageAlt": "Cup and plate line illustration; product photograph not available",
+      "imageSourceType": "placeholder",
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "regular",
+              "name": "Regular",
+              "price": 50
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "hot",
+              "name": "Hot",
+              "price": 0
+            },
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Extras",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "shot",
+              "name": "Extra Shot",
+              "price": 100
+            },
+            {
+              "id": "vanilla",
+              "name": "Vanilla Syrup",
+              "price": 70
+            },
+            {
+              "id": "caramel",
+              "name": "Caramel Syrup",
+              "price": 70
+            },
+            {
+              "id": "hazelnut",
+              "name": "Hazelnut Syrup",
+              "price": 70
+            },
+            {
+              "id": "cream",
+              "name": "Whipped Cream",
+              "price": 80
+            }
+          ]
+        }
+      ],
+      "allergens": [],
+      "tags": [],
+      "status": "Available",
+      "displayOrder": 1
+    },
+    {
+      "id": "flat-white",
+      "categoryId": "coffee",
+      "name": "Flat White",
+      "description": "Velvety microfoam meets our house espresso blend.",
+      "basePrice": 480,
+      "imageUrl": "/menu-images/placeholders/brand-placeholder-480.webp",
+      "imageDetailUrl": "/menu-images/placeholders/brand-placeholder-960.webp",
+      "imageAlt": "Cup and plate line illustration; product photograph not available",
+      "imageSourceType": "placeholder",
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "regular",
+              "name": "Regular",
+              "price": 50
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "hot",
+              "name": "Hot",
+              "price": 0
+            },
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "milk",
+          "name": "Milk",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "full-cream",
+              "name": "Full Cream",
+              "price": 0
+            },
+            {
+              "id": "skim",
+              "name": "Skim",
+              "price": 0
+            },
+            {
+              "id": "almond",
+              "name": "Almond",
+              "price": 80
+            },
+            {
+              "id": "oat",
+              "name": "Oat",
+              "price": 80
+            },
+            {
+              "id": "soy",
+              "name": "Soy",
+              "price": 80
+            },
+            {
+              "id": "lactose-free",
+              "name": "Lactose Free",
+              "price": 80
+            }
+          ]
+        },
+        {
+          "id": "sweetness",
+          "name": "Sweetness",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "s0",
+              "name": "0%",
+              "price": 0
+            },
+            {
+              "id": "s25",
+              "name": "25%",
+              "price": 0
+            },
+            {
+              "id": "s50",
+              "name": "50%",
+              "price": 0
+            },
+            {
+              "id": "s75",
+              "name": "75%",
+              "price": 0
+            },
+            {
+              "id": "s100",
+              "name": "100%",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Extras",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "shot",
+              "name": "Extra Shot",
+              "price": 100
+            },
+            {
+              "id": "vanilla",
+              "name": "Vanilla Syrup",
+              "price": 70
+            },
+            {
+              "id": "caramel",
+              "name": "Caramel Syrup",
+              "price": 70
+            },
+            {
+              "id": "hazelnut",
+              "name": "Hazelnut Syrup",
+              "price": 70
+            },
+            {
+              "id": "cream",
+              "name": "Whipped Cream",
+              "price": 80
+            }
+          ]
+        }
+      ],
+      "allergens": [
+        "Milk (depends on selection)"
+      ],
+      "tags": [
+        "Recommended"
+      ],
+      "status": "Available",
+      "displayOrder": 2
+    },
+    {
+      "id": "latte",
+      "categoryId": "coffee",
+      "name": "Latte",
+      "description": "Your daily ritual. Espresso, steamed milk and a little calm.",
+      "basePrice": 500,
+      "imageUrl": "/menu-images/placeholders/brand-placeholder-480.webp",
+      "imageDetailUrl": "/menu-images/placeholders/brand-placeholder-960.webp",
+      "imageAlt": "Cup and plate line illustration; product photograph not available",
+      "imageSourceType": "placeholder",
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "regular",
+              "name": "Regular",
+              "price": 50
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "hot",
+              "name": "Hot",
+              "price": 0
+            },
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "milk",
+          "name": "Milk",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "full-cream",
+              "name": "Full Cream",
+              "price": 0
+            },
+            {
+              "id": "skim",
+              "name": "Skim",
+              "price": 0
+            },
+            {
+              "id": "almond",
+              "name": "Almond",
+              "price": 80
+            },
+            {
+              "id": "oat",
+              "name": "Oat",
+              "price": 80
+            },
+            {
+              "id": "soy",
+              "name": "Soy",
+              "price": 80
+            },
+            {
+              "id": "lactose-free",
+              "name": "Lactose Free",
+              "price": 80
+            }
+          ]
+        },
+        {
+          "id": "sweetness",
+          "name": "Sweetness",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "s0",
+              "name": "0%",
+              "price": 0
+            },
+            {
+              "id": "s25",
+              "name": "25%",
+              "price": 0
+            },
+            {
+              "id": "s50",
+              "name": "50%",
+              "price": 0
+            },
+            {
+              "id": "s75",
+              "name": "75%",
+              "price": 0
+            },
+            {
+              "id": "s100",
+              "name": "100%",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Extras",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "shot",
+              "name": "Extra Shot",
+              "price": 100
+            },
+            {
+              "id": "vanilla",
+              "name": "Vanilla Syrup",
+              "price": 70
+            },
+            {
+              "id": "caramel",
+              "name": "Caramel Syrup",
+              "price": 70
+            },
+            {
+              "id": "hazelnut",
+              "name": "Hazelnut Syrup",
+              "price": 70
+            },
+            {
+              "id": "cream",
+              "name": "Whipped Cream",
+              "price": 80
+            }
+          ]
+        }
+      ],
+      "allergens": [
+        "Milk (depends on selection)"
+      ],
+      "tags": [
+        "Recommended"
+      ],
+      "status": "Available",
+      "displayOrder": 3
+    },
+    {
+      "id": "cappuccino",
+      "categoryId": "coffee",
+      "name": "Cappuccino",
+      "description": "Espresso with soft milk foam and a dusting of cocoa.",
+      "basePrice": 500,
+      "imageUrl": "/menu-images/placeholders/brand-placeholder-480.webp",
+      "imageDetailUrl": "/menu-images/placeholders/brand-placeholder-960.webp",
+      "imageAlt": "Cup and plate line illustration; product photograph not available",
+      "imageSourceType": "placeholder",
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "regular",
+              "name": "Regular",
+              "price": 50
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "hot",
+              "name": "Hot",
+              "price": 0
+            },
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "milk",
+          "name": "Milk",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "full-cream",
+              "name": "Full Cream",
+              "price": 0
+            },
+            {
+              "id": "skim",
+              "name": "Skim",
+              "price": 0
+            },
+            {
+              "id": "almond",
+              "name": "Almond",
+              "price": 80
+            },
+            {
+              "id": "oat",
+              "name": "Oat",
+              "price": 80
+            },
+            {
+              "id": "soy",
+              "name": "Soy",
+              "price": 80
+            },
+            {
+              "id": "lactose-free",
+              "name": "Lactose Free",
+              "price": 80
+            }
+          ]
+        },
+        {
+          "id": "sweetness",
+          "name": "Sweetness",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "s0",
+              "name": "0%",
+              "price": 0
+            },
+            {
+              "id": "s25",
+              "name": "25%",
+              "price": 0
+            },
+            {
+              "id": "s50",
+              "name": "50%",
+              "price": 0
+            },
+            {
+              "id": "s75",
+              "name": "75%",
+              "price": 0
+            },
+            {
+              "id": "s100",
+              "name": "100%",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Extras",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "shot",
+              "name": "Extra Shot",
+              "price": 100
+            },
+            {
+              "id": "vanilla",
+              "name": "Vanilla Syrup",
+              "price": 70
+            },
+            {
+              "id": "caramel",
+              "name": "Caramel Syrup",
+              "price": 70
+            },
+            {
+              "id": "hazelnut",
+              "name": "Hazelnut Syrup",
+              "price": 70
+            },
+            {
+              "id": "cream",
+              "name": "Whipped Cream",
+              "price": 80
+            }
+          ]
+        }
+      ],
+      "allergens": [
+        "Milk (depends on selection)"
+      ],
+      "tags": [],
+      "status": "Available",
+      "displayOrder": 4
+    },
+    {
+      "id": "mocha",
+      "categoryId": "coffee",
+      "name": "Mocha",
+      "description": "Dark chocolate, espresso and silky steamed milk.",
+      "basePrice": 550,
+      "imageUrl": "/menu-images/placeholders/brand-placeholder-480.webp",
+      "imageDetailUrl": "/menu-images/placeholders/brand-placeholder-960.webp",
+      "imageAlt": "Cup and plate line illustration; product photograph not available",
+      "imageSourceType": "placeholder",
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "regular",
+              "name": "Regular",
+              "price": 50
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "hot",
+              "name": "Hot",
+              "price": 0
+            },
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "milk",
+          "name": "Milk",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "full-cream",
+              "name": "Full Cream",
+              "price": 0
+            },
+            {
+              "id": "skim",
+              "name": "Skim",
+              "price": 0
+            },
+            {
+              "id": "almond",
+              "name": "Almond",
+              "price": 80
+            },
+            {
+              "id": "oat",
+              "name": "Oat",
+              "price": 80
+            },
+            {
+              "id": "soy",
+              "name": "Soy",
+              "price": 80
+            },
+            {
+              "id": "lactose-free",
+              "name": "Lactose Free",
+              "price": 80
+            }
+          ]
+        },
+        {
+          "id": "sweetness",
+          "name": "Sweetness",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "s0",
+              "name": "0%",
+              "price": 0
+            },
+            {
+              "id": "s25",
+              "name": "25%",
+              "price": 0
+            },
+            {
+              "id": "s50",
+              "name": "50%",
+              "price": 0
+            },
+            {
+              "id": "s75",
+              "name": "75%",
+              "price": 0
+            },
+            {
+              "id": "s100",
+              "name": "100%",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Extras",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "shot",
+              "name": "Extra Shot",
+              "price": 100
+            },
+            {
+              "id": "vanilla",
+              "name": "Vanilla Syrup",
+              "price": 70
+            },
+            {
+              "id": "caramel",
+              "name": "Caramel Syrup",
+              "price": 70
+            },
+            {
+              "id": "hazelnut",
+              "name": "Hazelnut Syrup",
+              "price": 70
+            },
+            {
+              "id": "cream",
+              "name": "Whipped Cream",
+              "price": 80
+            }
+          ]
+        }
+      ],
+      "allergens": [
+        "Milk (depends on selection)"
+      ],
+      "tags": [],
+      "status": "Available",
+      "displayOrder": 5
+    },
+    {
+      "id": "matcha-latte",
+      "categoryId": "non-coffee",
+      "name": "Matcha Latte",
+      "description": "Earthy green matcha, whisked smooth with your favourite milk.",
+      "basePrice": 600,
+      "imageUrl": "/menu-images/placeholders/brand-placeholder-480.webp",
+      "imageDetailUrl": "/menu-images/placeholders/brand-placeholder-960.webp",
+      "imageAlt": "Cup and plate line illustration; product photograph not available",
+      "imageSourceType": "placeholder",
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "regular",
+              "name": "Regular",
+              "price": 50
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "hot",
+              "name": "Hot",
+              "price": 0
+            },
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "milk",
+          "name": "Milk",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "full-cream",
+              "name": "Full Cream",
+              "price": 0
+            },
+            {
+              "id": "skim",
+              "name": "Skim",
+              "price": 0
+            },
+            {
+              "id": "almond",
+              "name": "Almond",
+              "price": 80
+            },
+            {
+              "id": "oat",
+              "name": "Oat",
+              "price": 80
+            },
+            {
+              "id": "soy",
+              "name": "Soy",
+              "price": 80
+            },
+            {
+              "id": "lactose-free",
+              "name": "Lactose Free",
+              "price": 80
+            }
+          ]
+        },
+        {
+          "id": "sweetness",
+          "name": "Sweetness",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "s0",
+              "name": "0%",
+              "price": 0
+            },
+            {
+              "id": "s25",
+              "name": "25%",
+              "price": 0
+            },
+            {
+              "id": "s50",
+              "name": "50%",
+              "price": 0
+            },
+            {
+              "id": "s75",
+              "name": "75%",
+              "price": 0
+            },
+            {
+              "id": "s100",
+              "name": "100%",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Extras",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "shot",
+              "name": "Extra Shot",
+              "price": 100
+            },
+            {
+              "id": "vanilla",
+              "name": "Vanilla Syrup",
+              "price": 70
+            },
+            {
+              "id": "caramel",
+              "name": "Caramel Syrup",
+              "price": 70
+            },
+            {
+              "id": "hazelnut",
+              "name": "Hazelnut Syrup",
+              "price": 70
+            },
+            {
+              "id": "cream",
+              "name": "Whipped Cream",
+              "price": 80
+            }
+          ]
+        }
+      ],
+      "allergens": [
+        "Milk (depends on selection)"
+      ],
+      "tags": [],
+      "status": "Available",
+      "displayOrder": 6
+    },
+    {
+      "id": "chocolate",
+      "categoryId": "non-coffee",
+      "name": "Chocolate",
+      "description": "Comfort in a cup. Rich cocoa and steamed milk.",
+      "basePrice": 500,
+      "imageUrl": "/menu-images/placeholders/brand-placeholder-480.webp",
+      "imageDetailUrl": "/menu-images/placeholders/brand-placeholder-960.webp",
+      "imageAlt": "Cup and plate line illustration; product photograph not available",
+      "imageSourceType": "placeholder",
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "regular",
+              "name": "Regular",
+              "price": 50
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "hot",
+              "name": "Hot",
+              "price": 0
+            },
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "milk",
+          "name": "Milk",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "full-cream",
+              "name": "Full Cream",
+              "price": 0
+            },
+            {
+              "id": "skim",
+              "name": "Skim",
+              "price": 0
+            },
+            {
+              "id": "almond",
+              "name": "Almond",
+              "price": 80
+            },
+            {
+              "id": "oat",
+              "name": "Oat",
+              "price": 80
+            },
+            {
+              "id": "soy",
+              "name": "Soy",
+              "price": 80
+            },
+            {
+              "id": "lactose-free",
+              "name": "Lactose Free",
+              "price": 80
+            }
+          ]
+        },
+        {
+          "id": "sweetness",
+          "name": "Sweetness",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "s0",
+              "name": "0%",
+              "price": 0
+            },
+            {
+              "id": "s25",
+              "name": "25%",
+              "price": 0
+            },
+            {
+              "id": "s50",
+              "name": "50%",
+              "price": 0
+            },
+            {
+              "id": "s75",
+              "name": "75%",
+              "price": 0
+            },
+            {
+              "id": "s100",
+              "name": "100%",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Extras",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "shot",
+              "name": "Extra Shot",
+              "price": 100
+            },
+            {
+              "id": "vanilla",
+              "name": "Vanilla Syrup",
+              "price": 70
+            },
+            {
+              "id": "caramel",
+              "name": "Caramel Syrup",
+              "price": 70
+            },
+            {
+              "id": "hazelnut",
+              "name": "Hazelnut Syrup",
+              "price": 70
+            },
+            {
+              "id": "cream",
+              "name": "Whipped Cream",
+              "price": 80
+            }
+          ]
+        }
+      ],
+      "allergens": [
+        "Milk (depends on selection)"
+      ],
+      "tags": [],
+      "status": "Available",
+      "displayOrder": 7
+    },
+    {
+      "id": "chai-latte",
+      "categoryId": "non-coffee",
+      "name": "Chai Latte",
+      "description": "Warming spice, fragrant tea and a creamy finish.",
+      "basePrice": 550,
+      "imageUrl": "/menu-images/placeholders/brand-placeholder-480.webp",
+      "imageDetailUrl": "/menu-images/placeholders/brand-placeholder-960.webp",
+      "imageAlt": "Cup and plate line illustration; product photograph not available",
+      "imageSourceType": "placeholder",
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "regular",
+              "name": "Regular",
+              "price": 50
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "hot",
+              "name": "Hot",
+              "price": 0
+            },
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "milk",
+          "name": "Milk",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "full-cream",
+              "name": "Full Cream",
+              "price": 0
+            },
+            {
+              "id": "skim",
+              "name": "Skim",
+              "price": 0
+            },
+            {
+              "id": "almond",
+              "name": "Almond",
+              "price": 80
+            },
+            {
+              "id": "oat",
+              "name": "Oat",
+              "price": 80
+            },
+            {
+              "id": "soy",
+              "name": "Soy",
+              "price": 80
+            },
+            {
+              "id": "lactose-free",
+              "name": "Lactose Free",
+              "price": 80
+            }
+          ]
+        },
+        {
+          "id": "sweetness",
+          "name": "Sweetness",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "s0",
+              "name": "0%",
+              "price": 0
+            },
+            {
+              "id": "s25",
+              "name": "25%",
+              "price": 0
+            },
+            {
+              "id": "s50",
+              "name": "50%",
+              "price": 0
+            },
+            {
+              "id": "s75",
+              "name": "75%",
+              "price": 0
+            },
+            {
+              "id": "s100",
+              "name": "100%",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Extras",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "shot",
+              "name": "Extra Shot",
+              "price": 100
+            },
+            {
+              "id": "vanilla",
+              "name": "Vanilla Syrup",
+              "price": 70
+            },
+            {
+              "id": "caramel",
+              "name": "Caramel Syrup",
+              "price": 70
+            },
+            {
+              "id": "hazelnut",
+              "name": "Hazelnut Syrup",
+              "price": 70
+            },
+            {
+              "id": "cream",
+              "name": "Whipped Cream",
+              "price": 80
+            }
+          ]
+        }
+      ],
+      "allergens": [
+        "Milk (depends on selection)"
+      ],
+      "tags": [],
+      "status": "Available",
+      "displayOrder": 8
+    },
+    {
+      "id": "strawberry-matcha-latte",
+      "categoryId": "new-products",
+      "name": "Strawberry Matcha Latte",
+      "description": "Strawberry, milk and matcha. A bright little afternoon escape.",
+      "basePrice": 750,
+      "imageUrl": "/menu-images/placeholders/brand-placeholder-480.webp",
+      "imageDetailUrl": "/menu-images/placeholders/brand-placeholder-960.webp",
+      "imageAlt": "Cup and plate line illustration; product photograph not available",
+      "imageSourceType": "placeholder",
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "regular",
+              "name": "Regular",
+              "price": 50
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "hot",
+              "name": "Hot",
+              "price": 0
+            },
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "milk",
+          "name": "Milk",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "full-cream",
+              "name": "Full Cream",
+              "price": 0
+            },
+            {
+              "id": "skim",
+              "name": "Skim",
+              "price": 0
+            },
+            {
+              "id": "almond",
+              "name": "Almond",
+              "price": 80
+            },
+            {
+              "id": "oat",
+              "name": "Oat",
+              "price": 80
+            },
+            {
+              "id": "soy",
+              "name": "Soy",
+              "price": 80
+            },
+            {
+              "id": "lactose-free",
+              "name": "Lactose Free",
+              "price": 80
+            }
+          ]
+        },
+        {
+          "id": "sweetness",
+          "name": "Sweetness",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "s0",
+              "name": "0%",
+              "price": 0
+            },
+            {
+              "id": "s25",
+              "name": "25%",
+              "price": 0
+            },
+            {
+              "id": "s50",
+              "name": "50%",
+              "price": 0
+            },
+            {
+              "id": "s75",
+              "name": "75%",
+              "price": 0
+            },
+            {
+              "id": "s100",
+              "name": "100%",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Extras",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "shot",
+              "name": "Extra Shot",
+              "price": 100
+            },
+            {
+              "id": "vanilla",
+              "name": "Vanilla Syrup",
+              "price": 70
+            },
+            {
+              "id": "caramel",
+              "name": "Caramel Syrup",
+              "price": 70
+            },
+            {
+              "id": "hazelnut",
+              "name": "Hazelnut Syrup",
+              "price": 70
+            },
+            {
+              "id": "cream",
+              "name": "Whipped Cream",
+              "price": 80
+            }
+          ]
+        }
+      ],
+      "allergens": [
+        "Milk (depends on selection)"
+      ],
+      "tags": [
+        "New",
+        "Seasonal"
+      ],
+      "status": "Available",
+      "displayOrder": 9
+    },
+    {
+      "id": "biscoff-latte",
+      "categoryId": "new-products",
+      "name": "Biscoff Latte",
+      "description": "Caramelised biscuit notes with our signature espresso.",
+      "basePrice": 700,
+      "imageUrl": "/menu-images/placeholders/brand-placeholder-480.webp",
+      "imageDetailUrl": "/menu-images/placeholders/brand-placeholder-960.webp",
+      "imageAlt": "Cup and plate line illustration; product photograph not available",
+      "imageSourceType": "placeholder",
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "regular",
+              "name": "Regular",
+              "price": 50
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "hot",
+              "name": "Hot",
+              "price": 0
+            },
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "milk",
+          "name": "Milk",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "full-cream",
+              "name": "Full Cream",
+              "price": 0
+            },
+            {
+              "id": "skim",
+              "name": "Skim",
+              "price": 0
+            },
+            {
+              "id": "almond",
+              "name": "Almond",
+              "price": 80
+            },
+            {
+              "id": "oat",
+              "name": "Oat",
+              "price": 80
+            },
+            {
+              "id": "soy",
+              "name": "Soy",
+              "price": 80
+            },
+            {
+              "id": "lactose-free",
+              "name": "Lactose Free",
+              "price": 80
+            }
+          ]
+        },
+        {
+          "id": "sweetness",
+          "name": "Sweetness",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "s0",
+              "name": "0%",
+              "price": 0
+            },
+            {
+              "id": "s25",
+              "name": "25%",
+              "price": 0
+            },
+            {
+              "id": "s50",
+              "name": "50%",
+              "price": 0
+            },
+            {
+              "id": "s75",
+              "name": "75%",
+              "price": 0
+            },
+            {
+              "id": "s100",
+              "name": "100%",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Extras",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "shot",
+              "name": "Extra Shot",
+              "price": 100
+            },
+            {
+              "id": "vanilla",
+              "name": "Vanilla Syrup",
+              "price": 70
+            },
+            {
+              "id": "caramel",
+              "name": "Caramel Syrup",
+              "price": 70
+            },
+            {
+              "id": "hazelnut",
+              "name": "Hazelnut Syrup",
+              "price": 70
+            },
+            {
+              "id": "cream",
+              "name": "Whipped Cream",
+              "price": 80
+            }
+          ]
+        }
+      ],
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy"
+      ],
+      "tags": [
+        "New",
+        "Seasonal"
+      ],
+      "status": "Available",
+      "displayOrder": 10
+    },
+    {
+      "id": "salted-caramel-cold-brew",
+      "categoryId": "new-products",
+      "name": "Salted Caramel Cold Brew",
+      "description": "Slow brewed coffee with caramel and a pinch of sea salt.",
+      "basePrice": 650,
+      "imageUrl": "/menu-images/placeholders/brand-placeholder-480.webp",
+      "imageDetailUrl": "/menu-images/placeholders/brand-placeholder-960.webp",
+      "imageAlt": "Cup and plate line illustration; product photograph not available",
+      "imageSourceType": "placeholder",
+      "modifiers": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "small",
+              "name": "Small",
+              "price": 0
+            },
+            {
+              "id": "regular",
+              "name": "Regular",
+              "price": 50
+            },
+            {
+              "id": "large",
+              "name": "Large",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "temperature",
+          "name": "Temperature",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "iced",
+              "name": "Iced",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "sweetness",
+          "name": "Sweetness",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "s0",
+              "name": "0%",
+              "price": 0
+            },
+            {
+              "id": "s25",
+              "name": "25%",
+              "price": 0
+            },
+            {
+              "id": "s50",
+              "name": "50%",
+              "price": 0
+            },
+            {
+              "id": "s75",
+              "name": "75%",
+              "price": 0
+            },
+            {
+              "id": "s100",
+              "name": "100%",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Extras",
+          "required": false,
+          "multiple": true,
+          "options": [
+            {
+              "id": "shot",
+              "name": "Extra Shot",
+              "price": 100
+            },
+            {
+              "id": "vanilla",
+              "name": "Vanilla Syrup",
+              "price": 70
+            },
+            {
+              "id": "caramel",
+              "name": "Caramel Syrup",
+              "price": 70
+            },
+            {
+              "id": "hazelnut",
+              "name": "Hazelnut Syrup",
+              "price": 70
+            },
+            {
+              "id": "cream",
+              "name": "Whipped Cream",
+              "price": 80
+            }
+          ]
+        }
+      ],
+      "allergens": [
+        "Milk (depends on selection)"
+      ],
+      "tags": [
+        "New",
+        "Seasonal"
+      ],
+      "status": "Available",
+      "displayOrder": 11
+    },
+    {
+      "id": "avocado-toast",
+      "categoryId": "food",
+      "name": "Avocado Toast",
+      "basePrice": 1250,
+      "description": "Sourdough, smashed avocado, lemon and a little chilli.",
+      "allergens": [
+        "Wheat"
+      ],
+      "imageUrl": "/menu-images/placeholders/brand-placeholder-480.webp",
+      "imageDetailUrl": "/menu-images/placeholders/brand-placeholder-960.webp",
+      "imageAlt": "Cup and plate line illustration; product photograph not available",
+      "imageSourceType": "placeholder",
+      "modifiers": [],
+      "tags": [],
+      "status": "Available",
+      "displayOrder": 12
+    },
+    {
+      "id": "bacon-and-egg-roll",
+      "categoryId": "food",
+      "name": "Bacon & Egg Roll",
+      "basePrice": 1150,
+      "description": "A soft breakfast roll with bacon, egg and tomato relish.",
+      "allergens": [
+        "Wheat",
+        "Egg",
+        "Milk"
+      ],
+      "imageUrl": "/menu-images/placeholders/brand-placeholder-480.webp",
+      "imageDetailUrl": "/menu-images/placeholders/brand-placeholder-960.webp",
+      "imageAlt": "Cup and plate line illustration; product photograph not available",
+      "imageSourceType": "placeholder",
+      "modifiers": [],
+      "tags": [],
+      "status": "Available",
+      "displayOrder": 13
+    },
+    {
+      "id": "breakfast-croissant",
+      "categoryId": "food",
+      "name": "Breakfast Croissant",
+      "basePrice": 950,
+      "description": "A buttery croissant filled with ham and melted cheese.",
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Egg"
+      ],
+      "imageUrl": "/menu-images/placeholders/brand-placeholder-480.webp",
+      "imageDetailUrl": "/menu-images/placeholders/brand-placeholder-960.webp",
+      "imageAlt": "Cup and plate line illustration; product photograph not available",
+      "imageSourceType": "placeholder",
+      "modifiers": [],
+      "tags": [],
+      "status": "Available",
+      "displayOrder": 14
+    },
+    {
+      "id": "banana-bread",
+      "categoryId": "food",
+      "name": "Banana Bread",
+      "basePrice": 550,
+      "description": "A generous slice, lightly toasted on request.",
+      "allergens": [
+        "Wheat",
+        "Egg",
+        "Milk"
+      ],
+      "imageUrl": "/menu-images/placeholders/brand-placeholder-480.webp",
+      "imageDetailUrl": "/menu-images/placeholders/brand-placeholder-960.webp",
+      "imageAlt": "Cup and plate line illustration; product photograph not available",
+      "imageSourceType": "placeholder",
+      "modifiers": [
+        {
+          "id": "toast",
+          "name": "Serve",
+          "required": true,
+          "multiple": false,
+          "options": [
+            {
+              "id": "fresh",
+              "name": "Fresh",
+              "price": 0
+            },
+            {
+              "id": "toasted",
+              "name": "Toasted",
+              "price": 0
+            }
+          ]
+        }
+      ],
+      "tags": [],
+      "status": "Available",
+      "displayOrder": 15
+    },
+    {
+      "id": "almond-croissant",
+      "categoryId": "food",
+      "name": "Almond Croissant",
+      "basePrice": 650,
+      "description": "Flaky pastry with almond filling and toasted almond flakes.",
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Egg",
+        "Tree nuts"
+      ],
+      "imageUrl": "/menu-images/placeholders/brand-placeholder-480.webp",
+      "imageDetailUrl": "/menu-images/placeholders/brand-placeholder-960.webp",
+      "imageAlt": "Cup and plate line illustration; product photograph not available",
+      "imageSourceType": "placeholder",
+      "modifiers": [],
+      "tags": [],
+      "status": "Available",
+      "displayOrder": 16
+    },
+    {
+      "id": "chocolate-brownie",
+      "categoryId": "food",
+      "name": "Chocolate Brownie",
+      "basePrice": 550,
+      "description": "A rich chocolate square with a soft, fudgy centre.",
+      "allergens": [
+        "Wheat",
+        "Egg",
+        "Milk",
+        "Soy"
+      ],
+      "imageUrl": "/menu-images/placeholders/brand-placeholder-480.webp",
+      "imageDetailUrl": "/menu-images/placeholders/brand-placeholder-960.webp",
+      "imageAlt": "Cup and plate line illustration; product photograph not available",
+      "imageSourceType": "placeholder",
+      "modifiers": [],
+      "tags": [],
+      "status": "Available",
+      "displayOrder": 17
+    }
+  ],
+  "categories": [
+    {
+      "id": "coffee",
+      "name": "Coffee",
+      "displayOrder": 0,
+      "active": true,
+      "kind": "drink"
+    },
+    {
+      "id": "non-coffee",
+      "name": "Non-coffee",
+      "displayOrder": 1,
+      "active": true,
+      "kind": "drink"
+    },
+    {
+      "id": "new-products",
+      "name": "Something new",
+      "displayOrder": 2,
+      "active": true,
+      "kind": "drink"
+    },
+    {
+      "id": "food",
+      "name": "All-Day Kitchen",
+      "displayOrder": 3,
+      "active": true,
+      "kind": "food"
+    }
+  ]
+}

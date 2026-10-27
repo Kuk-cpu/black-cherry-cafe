@@ -1,0 +1,18 @@
+rules_version = '2';
+service cloud.firestore {
+ match /databases/{database}/documents {
+  function staff() { return request.auth != null && exists(/databases/$(database)/documents/users/$(request.auth.uid)) && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.active == true && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role in ['staff','admin']; }
+  function admin() { return staff() && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin'; }
+  match /products/{id} { allow read: if staff() || resource.data.status in ['Available','Sold Out']; }
+  match /categories/{id} { allow read: if staff() || resource.data.active == true; }
+  match /settings/store { allow read: if true; }
+  match /users/{id} { allow get: if request.auth != null && (request.auth.uid == id || admin()); allow list: if admin(); }
+  match /orders/{id} { allow read: if staff(); }
+  // A 256-bit bearer capability. Collection scans are forbidden. Projection excludes identity and survey data.
+  match /publicOrders/{token} { allow get: if token.matches('^[a-f0-9]{64}$'); allow list: if false; }
+  match /feedback/{id} { allow read: if admin(); }
+  match /campaigns/{id} { allow read: if admin(); }
+  // All writes go through the validated Admin SDK API. Includes roles, rates, audit, counters and idempotency.
+  match /{document=**} { allow write: if false; }
+ }
+}
