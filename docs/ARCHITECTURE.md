@@ -43,8 +43,8 @@
 | publicOrders | publicToken；仅脱敏追踪 projection，禁止 list                                                                                  |
 | feedback     | orderId，确保一单一评；id, orderId, rating, tasteRating, valueRating, comment, newProductInterest, createdAt                   |
 | counters     | orders 文档的 value，全局原子序号                                                                                              |
-| idempotency  | UUID 的 SHA-256；payloadHash, response, expiresAt（48h TTL）                                                                   |
-| rateLimits   | 服务端 HMAC(IP/UID + 操作 + 分钟窗口)；count, expiresAt（2min TTL），不存原始 IP                                               |
+| idempotency  | UUID 的 SHA-256；payloadHash, response, expiresAt（48h 过期标记）                                                              |
+| rateLimits   | 服务端 HMAC(IP/UID + 操作 + 分钟窗口)；count, expiresAt（2min 过期标记），不存原始 IP                                          |
 | audit        | uid, action, 目标实体／订单、变化字段、at；仅 Admin SDK，未开放客户端读取                                                      |
 
 `orders` 包含：id, orderNumber, publicToken, orderType, tableNumber, customerName, source, isFirstVisit, isUsydStudent, items, subtotal, total, paymentMethod, paymentStatus, orderStatus, specialInstructions, sessionStartedAt, submittedAt, acceptedAt, preparingAt, readyAt, completedAt, cancelledAt, remade, refunded, createdAt；扩展 error, waitMinutes, timeline。
@@ -81,7 +81,7 @@ CSV 使用 UTF-8 BOM、字段引用／双引号转义，并中和以 =、+、-�
 
 ## 运维
 
-限流文档使用 Firestore transaction，适用于多个 Vercel 实例，不依赖单进程内存。限流按自然分钟固定窗口，不能代替 WAF。生产 IP 来源于 Vercel 转发头；本地只用 socket IP。
+限流文档使用 Firestore transaction，适用于多个 Vercel 实例，不依赖单进程内存。限流按自然分钟固定窗口，不能代替 WAF。生产 IP 来源于 Vercel 转发头；本地只用 socket IP。Spark 免费项目保留 `expiresAt` 作为运维清理依据，不启用要求结算账号的 Firestore 自动 TTL。
 
 设好预算告警，关注 Firestore 读取量和 API 错误率；菜单和看板使用实时订阅。店员共享网络触发限流时，根据实际峰值调整阈值。不要在服务端日志输出完整顾客 payload、token 或密钥。
 

@@ -9,8 +9,5 @@
       ]
     }
   ],
-  "fieldOverrides": [
-    { "collectionGroup": "rateLimits", "fieldPath": "expiresAt", "ttl": true, "indexes": [] },
-    { "collectionGroup": "idempotency", "fieldPath": "expiresAt", "ttl": true, "indexes": [] }
-  ]
+  "fieldOverrides": []
 }
